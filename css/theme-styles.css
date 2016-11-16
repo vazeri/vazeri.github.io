@@ -375,6 +375,10 @@ x:-o-prefocus, .navi-link {
 .black {
 	background-color: #061825;
 }
+
+.yellow {
+	background-color: #A36E01;
+}
 .indicator {
 	display: block;
 	height: auto;
@@ -405,6 +409,9 @@ x:-o-prefocus, .navi-link {
 }
 .indicator.black {
 	background-color: #213646;
+}
+.indicator.yellow {
+	background-color: #6A4300;
 }
 .skill-icon {
 	display: block;
