@@ -425,10 +425,10 @@ x:-o-prefocus, .navi-link {
 	background: url(../img/icons/skill-icons.png) no-repeat;
 }
 .skill-icon.experience {
-	background-position: 0px 0px;
+	background-position: -84px 0px;
 }
 .skill-icon.projects {
-	background-position: -43px 0px;
+	background-position: -84px 0px;
 }
 .skill-icon.customers {
 	width: 35px;
