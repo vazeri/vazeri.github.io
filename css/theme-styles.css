@@ -113,6 +113,23 @@ img {
 	display: block;
 	margin: auto;
 }
+}
+.cent {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+
+    position:absolute;
+    left:0; 
+    right:0;
+    top:0; 
+    bottom:0;
+    margin:auto;
+
+    max-width:100%;
+    max-height:100%;
+    overflow:auto;
+}
 
 /*Container
 ---------------------------------------------------------*/
@@ -120,6 +137,13 @@ img {
 	width: 100%;
 }
 .wrapper:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+}
+.wrapper2:after {
 	visibility: hidden;
 	display: block;
 	content: "";
@@ -154,7 +178,7 @@ img {
 	margin: 20px 0 0 0;
 }
 .sidebar h3 {
-	font-size: 2.2em;
+	font-size: 1.5em;
 	text-transform: uppercase;
 	text-align: center;
 	font-weight: 300;
@@ -231,12 +255,14 @@ img {
 }
 .content-left section,
 .content-right section {
-	width: 100%;
+	width: 100%;	
 	padding-left: 40px;
 	padding-right: 40px;
-	margin-bottom: 35px;
+	margin-top: -20px;
+	margin-bottom: 20px;
 	position: relative;
 }
+
 .content-left section.full-width,
 .content-right section.full-width {
 	padding-left: 0px;
@@ -336,13 +362,14 @@ x:-o-prefocus, .navi-link {
 }
 .skillset .column {
 	float: left;
-	width: 33.3%;
+	width: 95.3%;
 	text-align: right;
 	padding: 22px 0 17px 0;
 }
 .skill {
+
 	width: 100%;
-	font-size: 1.8em;
+	font-size: 2em;
 	color: #ffffff;
 	font-weight: 300;
 	position: relative;
@@ -351,6 +378,8 @@ x:-o-prefocus, .navi-link {
 .skill .title {
 	padding-top: 22px;
 }
+
+
 .skill .column.heading {
 	font-size: 0.45em !important;
 	color: #ffffff;
@@ -503,6 +532,11 @@ x:-o-prefocus, .navi-link {
 	top: 0;
 	background-color: #445878;
 	z-index: 1;
+}
+.divider{
+    width:25px;
+    height:auto;
+    display:inline-block;
 }
 
 /*Education
@@ -678,7 +712,7 @@ x:-o-prefocus, .navi-link {
 .hobby .row {
 	margin-bottom: 10px;
 }
-
+ 
 /*Buttons
 ---------------------------------------------------------*/
 .btn {
@@ -689,6 +723,25 @@ x:-o-prefocus, .navi-link {
 	margin: 0 0 20px 0;
   padding: 13px 70px;
 	font-size: 1.4em;
+  line-height: 1;
+	text-decoration: none !important;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+	outline: 0;
+	text-transform: uppercase;
+}
+.btn2 {
+  display: inline-block;
+  font-weight: 300;
+  border: none;
+	white-space: normal;
+	margin: 0 0 15px 0;
+	margin-left:10px;
+	margin-top:0px;
+	
+  padding: 8px 20px;
+	font-size: 1em;
   line-height: 1;
 	text-decoration: none !important;
   -webkit-border-radius: 0px;
@@ -936,10 +989,21 @@ label.error {
 .deviantart-hover a i {
 	font-size: 5em !important;
 }
+.researchgate-hover {
+	
+	background: url(../img/icons/RG_square_green2.jpg) ;
+	font-size: 5em !important;
+}
+.researchgate-hover a i {
+	
+	background: url(../img/icons/RG_square_black.jpg) ;
+	font-size: 5em !important;
+}
 
 /*Files
 ---------------------------------------------------------*/
 .files .col-lg-4 {
+	margin-top: -60px;
 	text-align: center;
 }
 .files div a {
