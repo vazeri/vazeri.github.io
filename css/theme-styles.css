@@ -102,6 +102,14 @@ p.bold {
 	background-color: #2980b9;
 	margin-bottom: 30px;
 	color: #fff;
+		 border: 1px solid #999;
+	
+/*Sombras
+---------------------------------------------------------*/
+
+-moz-box-shadow: -5px -5px 5px #888;
+-webkit-box-shadow: -5px -5px 5px #888;
+box-shadow: -2px -5px 0px #2C3E50;
 }
 .color-heading h1, .color-heading h2,
 .color-heading h3, .color-heading h4 {
@@ -375,8 +383,8 @@ x:-o-prefocus, .navi-link {
 ---------------------------------------------------------*/
 .strength {
 	
-	margin-top: -20px;
-	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-bottom: 20px;
 }
 .strength h3 {
 	font-size: 1.3em;
