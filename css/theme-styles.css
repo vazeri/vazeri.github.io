@@ -85,6 +85,14 @@ p.large {
 	line-height: 1.64em;
 	font-weight: 300;
 }
+
+p.bold {
+	color: #ffffff;
+	font-size: 1.4em;
+	line-height: 1.64em;
+	text-align: center;
+	font-weight: 400;
+}
 .light-text {
 	color: #FFFFFF;
 }
@@ -125,6 +133,22 @@ img {
     max-height:100%;
     overflow:auto;
 }
+
+/*Important2
+---------------------------------------------------------*/
+
+
+.post-thumb {
+	margin-left: 0px;
+    float: left
+}
+.post-thumb img {
+    display: block
+}
+.post-content {
+    margin-left: 0px
+}
+
 
 /*Container
 ---------------------------------------------------------*/
@@ -204,13 +228,32 @@ img {
 .contact-details-wrap {
 	position: absolute;
 	width: 100%;
-	bottom: 70px;
+	bottom: 180px;
 	padding: 0 6.575342465753425%; /*48/730*/
 }
 .contact-details {
-	padding: 25px 50px;
+	padding: 20px 50px;
 	background-color: rgba(44,62,80,0.9);
 }
+
+/*Importante
+---------------------------------------------------------*/
+
+.important {
+	
+	position: relative;
+	width: 100%;
+	bottom: 50px;
+	padding: 0 6.575342465753425%; /*48/730*/
+}
+.important-details {
+	-webkit-border-radius: 15px 15px 15px 15px;
+    border-radius: 12px 12px 12px 12px;
+	padding: 10px 10px;
+	background-color: #8C0000;
+	margin-bottom: 45px;
+    margin-top: 35px;
+		}
 .no-svg .contact-details {
 	background-color: #1c1d21;
 }
@@ -694,9 +737,12 @@ x:-o-prefocus, .navi-link {
 ---------------------------------------------------------*/
 .recommend .row {
 	margin-bottom: 10px;
+	
 }
 .recommend img {
-	margin-top: 20px;
+	margin-top: 10px;
+    margin-bottom: 20px;
+	
 }
 
 /*Hobby
@@ -764,7 +810,9 @@ x:-o-prefocus, .navi-link {
 /*Contact Form
 ---------------------------------------------------------*/
 #contact-form {
-	margin-top: 30px;
+	margin-top: 65px;
+	
+  margin-bottom: 65px;
 }
 .contact-form {
 	margin-top: 10px;
@@ -855,7 +903,7 @@ label.error {
 }
 .social-links > div {
 	float: left;
-	width: 16.6666666667%;
+	width: 25%;
 	height: auto;
 	-webkit-transition: all 300ms ease; 
 	-moz-transition: all 300ms ease; 
