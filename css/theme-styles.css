@@ -218,9 +218,9 @@ img {
 .sidebar p a {
 	color: #fff;
 	border-bottom: 1px solid transparent;
-	-webkit-transition: all 500ms ease;
-	-moz-transition: all 500ms ease;
-	transition: all 500ms ease;
+	-webkit-transition: all 1000ms ease;
+	-moz-transition: all 1000ms ease;
+	transition: all 1000ms ease;
 }
 .sidebar p a:hover {
 	color: #fff;
@@ -241,7 +241,7 @@ img {
 }
 .contact-details {
 	padding: 20px 50px;
-	background-color: rgba(44,62,80,0.9);
+	background-color: rgba(44,62,80,0.8);
 }
 
 /*Importante
@@ -1277,7 +1277,7 @@ footer span {
 		width: 63.5%;
 	}
 	.contact-details-wrap {
-		bottom: 40px;
+		bottom: 100px;
 		padding: 0 6.575342465753425%; /*48/730*/
 	}
 	.contact-details {
@@ -1488,3 +1488,4 @@ footer span {
 iframe[name="google_conversion_frame"] {
     display: none !important;
 }
+z
