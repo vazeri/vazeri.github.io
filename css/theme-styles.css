@@ -911,8 +911,8 @@ label.error {
 }
 .social-links > div {
 	float: left;
-	width: 20%;
-	height: auto;
+	width: 25%;
+	height: 50%;
 	-webkit-transition: all 300ms ease; 
 	-moz-transition: all 300ms ease; 
 	transition: all 300ms ease;
