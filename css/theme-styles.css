@@ -163,6 +163,11 @@ img {
 .wrapper {
 	width: 100%;
 }
+
+.wrapper3 {
+    text-align: center;
+}
+
 .wrapper:after {
 	visibility: hidden;
 	display: block;
