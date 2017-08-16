@@ -127,6 +127,9 @@ width: 100%;
 z-index: 1;
 padding-top: 50px
 }
+.height30 {
+    height: 30px;
+}
 .logo{
 width: auto; 
 margin: 0 auto;
