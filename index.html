@@ -21,7 +21,7 @@
     <link href="css/social-icons.css" rel="stylesheet" media="screen">
     <!--Screen Theme Styles-->
     <link href="css/theme-styles.css" rel="stylesheet" media="screen">
-     <!--Modernizr-->
+    <!--Modernizr-->
 
 
 
@@ -77,7 +77,7 @@
  <a>    </a> 
 </div>
 
-                <div class="col-lg-4"><a><button class="btn3 btn-primary pull-left" onclick="location.href='#contact-form'" type="button"><b>CONTACTEME</b></button></a></div>
+                <div class="col-lg-4"><a><button class="btn3 btn-primary pull-left" onclick="location.href='#contact-form'" type="button"><b>CONTÁCTEME</b></button></a></div>
 
 
                 <div class="col-lg-4"><a>
@@ -110,9 +110,13 @@
       <h2>Semblanza</h2>
     <p class="large"> Empático, perfeccionista, decidido y de carácter fuerte, con una habilidad única para administrar proyectos multidisciplinarios y navegar a través de retos complejos, puedo ponerme bastante técnico si es necesario, prefiero un lenguaje gráfico que me permite comunicarme de manera efectiva, para ofrecer soluciones en: </p>
 </div>
-     </div>      <a class="navi-link scroll-up" href="#intro" id="1"><i class="icon-user"></i></a>
+     </div>    <!--
+                        <div id="typewriter"></div>     
+           -->
           
-            </section>
+                <a class="navi-link scroll-up" href="#intro" id="1"><i class="icon-user"></i></a>
+
+</section>
             <!--Fortalezas-->
             <section id="strength">
                 <a class="navi-link scroll-top-40" href="#strength" id="3"><i class=""></i></a>
@@ -125,7 +129,7 @@
                             <img src="img/strength/uc.svg" alt="Diseño embebido/electrónico" /></div>
                             <div class="col-lg-8 col-md-8 col-sm-8">
                                 <h3>Diseño embebido</h3>
-                                <p>Diseñar, soldar y maquilar circuitos, desde transistores hasta microcontroladores.</p>
+                                <p>Diseñar, soldar y maquilar circuitos electronicos, desde un transistor hasta microcontroladores.</p>
                             </div>
                         </div>
                     </div>
@@ -154,11 +158,30 @@
                             <div class="col-lg-4 col-md-4 col-sm-4"><img src="img/strength/elec.svg" alt="Sistemas electricos" /></div>
                             <div class="col-lg-8 col-md-8 col-sm-8">
                                 <h3>Sistemas eléctricos</h3>
-                                <p> Residenciales hasta industriales, su funcionamiento, diseño y mantenimiento bajo las normas NOM/NEC.</p>
+                                <p> Residenciales a industriales, diseño, protecciones y mantenimiento bajo las normas NOM-001/NEC.</p>
                             </div>
                         </div>
                     </div>
-                </div>
+                </div><div class="row">
+    <div class="col-lg-6">
+        <div class="row strength">
+            <div class="col-lg-4 col-md-4 col-sm-4"><img src="img/strength/pi.svg" alt="Propiedad intelectual" /></div>
+            <div class="col-lg-8 col-md-8 col-sm-8">
+                <h3>Propiedad intelectual</h3>
+                <p>Patentes, Modelos de utilidad, Diseños industriales, licencias de software, Búsquedas del estado de la técnica, y Derechos de autor.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6">
+        <div class="row strength">
+            <div class="col-lg-4 col-md-4 col-sm-4"><img src="img/strength/nom.svg" alt="Certificaciones" /></div>
+            <div class="col-lg-8 col-md-8 col-sm-8">
+                <h3>Normas y Certificaciones</h3>
+                <p> NOM 001-SEDE-2012, NOM-001-SCFI-1993, NOM-003-SCFI-2014, NOM-029-ENER-2016.</p>
+            </div>
+        </div>
+    </div>
+</div>
             </section>
             <!--Habilidades-->
             <section class="full-width skills" id="skills">
@@ -625,7 +648,8 @@
                 </div>
                 <div class="col-lg-12">
                     <input class="btn btn-primary pull-right" type="submit" value="Enviar">
-                </div>
+          
+				</div>
             </form>
         </div>
     </section>
@@ -634,16 +658,16 @@
         <div class="row">
 
             <div class="col-lg-4">
-            <a target="_blank" class="print-btn" href="https://github.com/vazeri/"><i class="icon-computer"></i><br />Repositorio</a>
+            <a target="_blank" class="print-btn" href="https://github.com/vazeri/"><i class="icon-computer"></i><br /><b>Repositorio</b></a>
             </div>
 
             <div class="col-lg-4">
-            <a href="https://github.com/vazeri/vazeri.github.io/raw/master/pdf/CVErick.pdf"><i class="icon-book"></i><br />Curriculum (PDF)</a>
+            <a href="https://github.com/vazeri/vazeri.github.io/raw/master/pdf/CVErick.pdf"><i class="icon-book"></i><br /><b>Curriculum (PDF)</b></a>
             </div>
 
             <div class="col-lg-4">
 
-                <a href="mailto:ergovazquez@esimez.mx?Subject=Hola%20Erick" target="_blank"><i class="icon-envelope"></i><br />Enviar correo</a>
+                <a href="mailto:ergovazquez@esimez.mx?Subject=Hola%20Erick" target="_blank"><i class="icon-envelope"></i><br /><b>Enviar correo</b></a>
             </div>
         </div>
     </section>
@@ -681,6 +705,7 @@
     <script src="js/jquery.placeholder.js"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/scripts.js"></script>
+    <script src="js/typewriter.js" charset="utf-8"></script>
 
     <!--Bind the swipebox behaviour on every link with the "swipebox" class.-->
     <script type="text/javascript">
