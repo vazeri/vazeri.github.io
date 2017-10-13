@@ -462,47 +462,64 @@ x:-o-prefocus, .navi-link {
 	font-size: 0.45em !important;
 	color: #ffffff;
 	font-weight: normal;
-	padding: 16px 0 23px 0;
+	padding: 16px 0 33px 0;
 }
 .blue {
-	background-color: #2c95bf;
+	min-height: 70px;
+	background-color: #910048;
+}
+
+.red {
+	min-height: 70px;
+	background-color: #7D2000;
 }
 .orange {
-	background-color: #c25815;
+	min-height: 70px;
+	background-color: #9F7800;
 }
 .grey {
+	min-height: 70px;
 	background-color: #839eb1;
 }
 .green {
+	min-height: 70px;
 	background-color: #50761e;
 }
 .violet {
-	background-color: #4f195d;
-}
-.black {
+	min-height: 70px;
 	background-color: #061825;
 }
+.black {
+	min-height: 70px;
+	background-color: #4f195d;
+}
 .yellow {
+	min-height: 70px;
 	background-color: #A36E01;
 }
 .indicator {
 	display: block;
 	height: auto;
 	width: 0%;
-	min-height: 100%;
+	min-height: 70px;
 	z-index: 0;
-	position: absolute;
+	position: absolute; 
+
 	top: 0;
 	left: 0;
-	-webkit-transition: width 1500ms ease-out; 
-	-moz-transition: width 1500ms ease-out; 
-	transition: width 1500ms ease-out; 
+	-webkit-transition: width 2500ms ease-out; 
+	-moz-transition: width 2500ms ease-out; 
+	transition: width 2500ms ease-out; 
 }
 .indicator.blue {
-	background-color: #3ac4fb;
+	background-color: #D9006C;
 }
+.indicator.red {
+	background-color: #B20000;
+}
+
 .indicator.orange {
-	background-color: #ff741b;
+	background-color: #D9A300;
 }
 .indicator.grey {
 	background-color: #acd0e8;
@@ -511,10 +528,10 @@ x:-o-prefocus, .navi-link {
 	background-color: #699b28;
 }
 .indicator.violet {
-	background-color: #68217a;
+	background-color: #213646;
 }
 .indicator.black {
-	background-color: #213646;
+	background-color: #68217a;
 }
 .indicator.yellow {
 	background-color: #6A4300;
