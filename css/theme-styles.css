@@ -228,7 +228,8 @@ img {
 	width: 100%;
 	min-height: 100%;
 	background-color: #12121a;
-	z-index: 0;
+	
+	z: 0;
 }
 .sidebar h1 {
 	display: block;
@@ -465,37 +466,37 @@ x:-o-prefocus, .navi-link {
 	padding: 16px 0 33px 0;
 }
 .blue {
-	min-height: 70px;
-	background-color: #910048;
+	min-height: 74px;
+	background-color: #6F0037;
 }
 
 .red {
-	min-height: 70px;
-	background-color: #7D2000;
+	min-height: 74px;
+	background-color: #551500;
 }
 .orange {
-	min-height: 70px;
-	background-color: #9F7800;
+	min-height: 74px;
+	background-color: #6A5000;
 }
 .grey {
-	min-height: 70px;
+	min-height: 74px;
 	background-color: #839eb1;
 }
 .green {
-	min-height: 70px;
-	background-color: #50761e;
+	min-height: 74px;
+	background-color: #354E14;
 }
 .violet {
-	min-height: 70px;
+	min-height: 74px;
 	background-color: #061825;
 }
 .black {
-	min-height: 70px;
-	background-color: #4f195d;
+	min-height: 74px;
+	background-color: #371241;
 }
 .yellow {
-	min-height: 70px;
-	background-color: #A36E01;
+	min-height: 74px;
+	background-color: #C89600;
 }
 .indicator {
 	display: block;
@@ -512,7 +513,7 @@ x:-o-prefocus, .navi-link {
 	transition: width 2500ms ease-out; 
 }
 .indicator.blue {
-	background-color: #D9006C;
+	 background-color: #D9006C;
 }
 .indicator.red {
 	background-color: #B20000;
@@ -1490,6 +1491,7 @@ footer span {
 	}
 	.skill .title {
 		padding-bottom: 10px;
+		  text-shadow: 1px 1px #000000;
 	}
 	.skill-icon {
 		display: inline-block;
