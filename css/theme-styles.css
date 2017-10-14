@@ -150,7 +150,7 @@ img {
 	display: block;
 	margin: auto;
 }
-}
+
 .cent {
     width: 50px;
     height: 50px;
@@ -171,7 +171,30 @@ img {
 /*Important2
 ---------------------------------------------------------*/
 
-
+.important1 {
+	text-align:center; /* center horizontally */
+    vertical-align:middle; /* center vertically */
+	horizontal-align: middle;
+    color: white;
+	  
+	font-size:  16pt ;
+	font-weight: bold;
+	
+}.important2 {
+	text-align:center; /* center horizontally */
+    vertical-align:middle; /* center vertically */
+    color: white;
+	font-size:  14pt ;
+	font-weight: bold;
+	
+}.important3 {
+	text-align:center; /* center horizontally */
+    vertical-align:middle; /* center vertically */
+    color: white;
+	font-size:  13pt ;
+	
+	
+}
 .post-thumb {
 	margin-left: 0px;
     float: left
@@ -284,7 +307,7 @@ img {
 	
 	position: relative;
 	width: 100%;
-	bottom: 50px;
+	bottom: 0px;
 	padding: 0 6.575342465753425%; /*48/730*/
 }
 .important-details {
@@ -293,7 +316,7 @@ img {
 	padding: 10px 10px;
 	background-color: #8C0000;
 	margin-bottom: 45px;
-    margin-top: 35px;
+    margin-top: 0;
 		}
 .no-svg .contact-details {
 	background-color: #1c1d21;
@@ -1022,14 +1045,14 @@ label.error {
 .social-links > div:hover > a i {
 	color: #000;
 }
-.twitter-hover {
+.twitter-hover {font-size: .8em; 
 	background-color: #5ec3df;
 }
 .github-hover {
 	background-color: #222222;
 }
 .github-hover a i {
-	font-size: 5.2em !important;
+	font-size: 3.8em !important;
 }
 .behance-hover {
 	background-color: #3878f6;
@@ -1041,7 +1064,7 @@ label.error {
 	background-color: #47bafd;
 }
 .vimeo-hover a i {
-	font-size: 3.8em !important;
+	font-size: 4em !important;
 }
 .pinterest-hover {
 	background-color: #cc1e27;
@@ -1065,7 +1088,7 @@ label.error {
 	background-color: #2089b5;
 }
 .likedin-hover a i {
-	font-size: 4em !important;
+	font-size: 3em !important;
 }
 .dribbble-hover {
 	background-color: #ea4c89;
@@ -1074,6 +1097,7 @@ label.error {
 	font-size: 5.6em !important;
 }
 .flickr-hover {
+	font-size: 0.8em; 
 	background-color: #0164db;
 }
 .gecko-hover {
@@ -1370,6 +1394,7 @@ footer span {
 		line-height: 1.5em;
 	}
 	h4 { font-size: 1.1em; }
+	
 	p {
 		font-size: 1em;
 		line-height: 1.4em;
