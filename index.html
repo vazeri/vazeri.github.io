@@ -659,7 +659,7 @@ function Asteroids() {
 	if ( typeof G_vmlCanvasManager != 'undefined' ) {
 		this.canvas = G_vmlCanvasManager.initElement(this.canvas);
 		if ( ! this.canvas.getContext ) {
-			alert("So... you're using IE?  Please join me at http://github.com/erkie/erkie.github.com if you think you can help");
+			alert("No funciona en Internet Explorer ");
 		}
 	} else {
 		if ( ! this.canvas.getContext ) {
@@ -671,10 +671,10 @@ function Asteroids() {
 		e = e || window.event;
 		var message = document.createElement('span');
 		message.style.position = 'absolute';
-		message.style.border = '2px solid #999';
+		message.style.border = '10px solid #D90000';
 		message.style.background = 'white';
 		message.style.color = "black";
-		message.innerHTML = 'Presiona ESC para terminar la masacre';
+		message.innerHTML = 'Usa las flechas en tu teclado para controlar la nave. Barra espaciadora para disparar. Presiona ESC para terminar la masacre';
 		document.body.appendChild(message);
 		
 		var x = e.pageX || (e.clientX + document.documentElement.scrollLeft);
