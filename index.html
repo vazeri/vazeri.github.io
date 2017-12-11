@@ -674,9 +674,9 @@ function Asteroids() {
 		var message = document.createElement('span');
 		message.style.position = 'absolute';
 		message.style.border = '10px solid #D90000';
-		message.style.background = 'white';
+		message.style.background = '10px white';
 		message.style.color = "black";
-		message.innerHTML = 'Usa las flechas en tu teclado para controlar la nave. Barra espaciadora para disparar. Presiona ESC para terminar la masacre';
+		message.innerHTML = 'Presiona ESC o F5 para terminar';
 		document.body.appendChild(message);
 		
 		var x = e.pageX || (e.clientX + document.documentElement.scrollLeft);
@@ -763,50 +763,66 @@ function Asteroids() {
 		
 		// highscore link
 		this.highscoreLink = document.createElement('a');
-		this.highscoreLink.className = "ASTEROIDSYEAH";
-		var css = {
-			fontFamily: 'Arial',
-			fontSize: '15px',
-			fontWeight: 'normal',
-			color: '#fff',
-			background: '#333',
-			textDecoration: 'none',
-			display: 'inline',
-			padding: '2px',
-			borderRadius: '5px',
-			position: 'relative',
-			left: '30px',
-			top: '-3px'
-		}
+          this.highscoreLink.className = "ASTEROIDSYEAH";
+          var css = {
+              fontFamily: 'Arial',
+              fontSize: '15px',
+              fontWeight: 'normal',
+              color: '#fff',
+              background: '#333',
+              textDecoration: 'none',
+              display: 'inline',
+              padding: '2px',
+              borderRadius: '5px',
+              position: 'relative',
+              left: '30px',
+              top: '-3px'
+          }
 		
 		for ( var key in css ) if ( css.hasOwnProperty(key) )
 		  this.highscoreLink.style[key] = css[key];
 		
-		this.highscoreLink.href = '#';
-		this.highscoreLink.innerHTML = "Enemigos erradicados";
-		this.navigation.appendChild(this.highscoreLink);
-		
-		this.appstore = document.createElement('div');
-		with ( this.appstore.style ) {
-			position = 'fixed';
-			top = '10px';
-			right = '10px';
-			zIndex = '9999999';
-		}
-		 
-		// fb like box
-		this.fbLike = document.createElement('div');
-		this.fbLike.innerHTML = "Presiona ESC para terminar la masacre";
-		this.navigation.appendChild(this.fbLike);
-		
-		// Don't show appstore on frontpage, because they are already present
-		if ( document.location.href === 'http://vazeri.github.io/' ) {
-			this.appstore.style.display = "none";
-		}
-	} else {
-		this.navigation = document.getElementById('ASTEROIDS-NAVIGATION');
-		this.points = document.getElementById('ASTEROIDS-POINTS');
-	}
+          this.highscoreLink.href = '#';
+          this.highscoreLink.innerHTML = "Elementos erradicados";
+          this.navigation.appendChild(this.highscoreLink);
+
+          this.appstore = document.createElement('div');
+          with (this.appstore.style) {
+              position = 'fixed';
+              top = '10px';
+              right = '10px';
+              zIndex = '9999999';
+          }
+          this.appstore.className = 'ASTEROIDSYEAH';
+          this.appstore.innerHTML = '<a class="ASTEROIDSYEAH"><img src="https://vazeri.github.io/img/icons/badge.png" class="ASTEROIDSYEAH" style="border: none" alt="¡Usa el teclado para disparar!" /></a>';
+          this.appstore.getElementsByTagName('a')[0].onclick = function () {
+              this.parentNode.removeChild(this);
+          }
+          document.body.appendChild(this.appstore);
+
+          // fb like box
+          this.fbLike = document.createElement('div');
+          this.fbLike.innerHTML = '<a class="ASTEROIDSYEAH"><img src="https://vazeri.github.io/img/icons/teclado.gif" class="ASTEROIDSYEAH" style="border: none" alt="¡Usa el teclado para disparar!" /></a>';
+            this.navigation.appendChild(this.fbLike);
+
+          // Don't show appstore on frontpage, because they are already present
+          if (document.location.href === 'http://vazeri.github.io') {
+              this.appstore.style.display = "none";
+          }
+            this.appstore.innerHTML = '<a class="ASTEROIDSYEAH"><img src="https://vazeri.github.io/img/icons/teclado.jpg" class="ASTEROIDSYEAH" style="border: none" alt="¡Usa el teclado para disparar!" /></a>';
+      
+          this.highscoreLink.onclick = function () {
+              if (!that.highscores) {
+                  that.highscores = new Highscores();
+              }
+
+              that.highscores.show();
+              return false;
+          };
+    } else {
+        this.navigation = document.getElementById('ASTEROIDS-NAVIGATION');
+        this.points = document.getElementById('ASTEROIDS-POINTS');
+    }
 	
 	// Because IE quirks does not understand position: fixed we set to absolute and just reposition it everything frame
 	if ( isIEQuirks ) {
@@ -1172,7 +1188,7 @@ function Asteroids() {
 		for ( var i = this.particles.length - 1; i >= 0; i-- ) {
 			this.particles[i].pos.add(this.particles[i].dir.mulNew(particleSpeed * tDelta * Math.random()));
 			
-			if ( nowTime - this.particles[i].cameAlive > 1000 ) {
+			if ( nowTime - this.particles[i].cameAlive > 6000 ) {
 				this.particles.splice(i, 1);
 				forceChange = true;
 				continue;
@@ -1303,7 +1319,7 @@ else window.ASTEROIDSPLAYERS[window.ASTEROIDSPLAYERS.length] = new Asteroids();
                     <div class="contact-details">
                         <div class="wrapper3">
                             <p class="large light-text">
-                                <i class="icon-whatsapp" ></i><b><a href=tel:5525267770> <u>(55) 2526 7770</u></a></b><br />
+                                <i class="icon-whatsapp"></i><b><a href=tel:5525267770> <u>(55) 2526 7770</u></a></b><br />
                                 Ciudad de México, (CDMX)<br />
                                 <a href="mailto:erick@ahorratec.org">erick@ahorratec.org</a><br />
                                 <a href="https://vazeri.github.io/">vazeri.github.io</a>
@@ -1311,16 +1327,17 @@ else window.ASTEROIDSPLAYERS[window.ASTEROIDSPLAYERS.length] = new Asteroids();
                         </div>
                     </div>
                 </div>
+            </div>
 
         </aside><!--Sidebar Close-->
         <!--Content-->   
         <div class="content-right">
             <div class="strip"></div>
-            <section class="files full-width" id="files">
+            <section class="files full-width" id="botones">
                 <div class="row">
                     <div class="col-lg-4">
                         <a>
-                            <button class="btn3 btn-primary pull-right" onclick="location.href='https://vazeri.github.io/repo/'" type="button"><b>Repositorio</b></button>
+                            <button class=" btn3 btn-primary pull-right" onclick="location.href='https://vazeri.github.io/repo/'" type="button"><b>Repositorio</b></button>
                         </a>
                     </div>
                     <div class="col-lg-4"><a><button class="btn3 btn-primary pull-left" onclick="location.href='#contact-form'" type="button"><b>CONTÁCTEME</b></button></a></div>
@@ -1956,7 +1973,7 @@ else window.ASTEROIDSPLAYERS[window.ASTEROIDSPLAYERS.length] = new Asteroids();
 
 
             <section id="contact-form">
-                <a class="navi-link scroll-top-40" href="#contact-form" id="12"><i class="icon-help-circled"></i></a>
+                <a class="visible-sm-block hidden-sm navi-link scroll-top-40" href="#contact-form" id="12"><i class="icon-help-circled"></i></a>
                 <h2>AQUI ENTRE NOS</h2>
                 <p> Me encantan los gatos y los canarios, aunque no se llevan del todo bien entre ellos, suelo disfrutar de salir con mi camara a tomar fotografías, escuchar conferencias y seminarios mientras cocino.</p>
                 <p> Si esta pagina te parece un poco aburrida... y estas tú PC/Laptop (lo siento smartphones) ¡Da click en el boton rojo para llamar a la caballeria!.</p>
@@ -1964,7 +1981,7 @@ else window.ASTEROIDSPLAYERS[window.ASTEROIDSPLAYERS.length] = new Asteroids();
 
             </section>
 
-            <section class="files full-width" id="files">
+            <section class="files full-width hidden-sm" id="files">
                 <div class="row">
                     <div class="col-xs-12" style="height:50px;"></div><div class="col-lg-4">
                         <!--        <a target="_blank" class="print-btn" href="#"><i class="icon-youtube-play"></i><br /><b>Video CV</b></a>
@@ -2022,6 +2039,7 @@ else window.ASTEROIDSPLAYERS[window.ASTEROIDSPLAYERS.length] = new Asteroids();
     <script src="js/jquery.placeholder.js"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/scripts.js"></script>
+    <script type="text/javascript" src="asteroids.js"></script>
     <!--Bind the swipebox behaviour on every link with the "swipebox" class.-->
     <script type="text/javascript">
 		;( function( $ ) {
