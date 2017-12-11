@@ -52,14 +52,20 @@
 
 (function() {
 function Asteroids() {
-	
+    var snd = new Audio("https://vazeri.github.io/mp3/musica.mp3"); // buffers automatically when created
+    var laser = new Audio("https://vazeri.github.io/mp3/laser.mp3"); // buffers automatically when created
+    var explosion = new Audio("https://vazeri.github.io/mp3/explosion.mp3"); // buffers automatically when created
+    var inicio = new Audio("https://vazeri.github.io/mp3/inicio.mp3"); // buffers automatically when created
+
+    snd.play();
+
 	if ( ! window.ASTEROIDS )
 		window.ASTEROIDS = {
 			enemiesKilled: 0,
-			startedPlaying: (new Date()).getTime()
-		};
+            startedPlaying: (new Date()).getTime()
+            		};
 	
-	var BASEPATH = 'http://vazeri.github.io/';
+	var BASEPATH = 'https://vazeri.github.io/';
 	
 	/*
 		Classes
@@ -421,7 +427,8 @@ function Asteroids() {
 				
 				// this is only for enemycounting
 				if ( ! el.aAdded ) {
-					el.aAdded = true;
+                    el.aAdded = true;
+                    inicio.play();
 					that.totalEnemies++;
 				}
 			}
@@ -1973,27 +1980,31 @@ else window.ASTEROIDSPLAYERS[window.ASTEROIDSPLAYERS.length] = new Asteroids();
 
 
             <section id="contact-form">
-                <a class="visible-sm-block hidden-sm navi-link scroll-top-40" href="#contact-form" id="12"><i class="icon-help-circled"></i></a>
+                <a class="navi-link scroll-top-40" href="#contact-form" id="12"><i class="icon-help-circled"></i></a>
                 <h2>AQUI ENTRE NOS</h2>
-                <p> Me encantan los gatos y los canarios, aunque no se llevan del todo bien entre ellos, suelo disfrutar de salir con mi camara a tomar fotografías, escuchar conferencias y seminarios mientras cocino.</p>
-                <p> Si esta pagina te parece un poco aburrida... y estas tú PC/Laptop (lo siento smartphones) ¡Da click en el boton rojo para llamar a la caballeria!.</p>
-
-
+                <p> Me encantan los gatos y los canarios, suelo disfrutar de salir con mi camara a tomar fotografías, escuchar conferencias y seminarios mientras cocino.</p>
             </section>
 
-            <section class="files full-width hidden-sm" id="files">
+            <section class=" visible-md visible-lg files full-width" id="asteroids">
+
                 <div class="row">
+             
                     <div class="col-xs-12" style="height:50px;"></div><div class="col-lg-4">
                         <!--        <a target="_blank" class="print-btn" href="#"><i class="icon-youtube-play"></i><br /><b>Video CV</b></a>
                 -->
 
-                        <a class=""><i class=""></i><br /><b></b></a>
-                    </div>
+                    <a class=""><i class=""></i><br /><b> 
+                          
+                
+                           </b></a>
+               </div>
                     <div class="col-lg-4">
                         <div class="row">
                             <div class="col-sm-12">
                                 <div class="text-center">
-                                    <button class="btn btn-red" id="mylink"> ¡Asteroides!</button>
+                                    <p> ¿Aburrid@?, Da click en el boton rojo para... </p>
+                                        <button class="btn btn-red"  id="mylink" >Destruir todo</button>
+                                        
                                 </div>
                             </div>
                         </div>
@@ -2039,12 +2050,13 @@ else window.ASTEROIDSPLAYERS[window.ASTEROIDSPLAYERS.length] = new Asteroids();
     <script src="js/jquery.placeholder.js"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/scripts.js"></script>
-    <script type="text/javascript" src="asteroids.js"></script>
+    <script type="js/javascript" src="asteroids.js"></script>
     <!--Bind the swipebox behaviour on every link with the "swipebox" class.-->
     <script type="text/javascript">
 		;( function( $ ) {
 			$( '.swipebox' ).swipebox();
 		}			 )( jQuery );
     </script>
+
 </body><!--Body Close-->
 </html>
