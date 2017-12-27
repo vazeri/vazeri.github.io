@@ -56,7 +56,7 @@ function Asteroids() {
     var laser = new Audio("https://vazeri.github.io/mp3/laser.wav"); // buffers automatically when created
     var explosion = new Audio("https://vazeri.github.io/mp3/explosion2.mp3"); // buffers automatically when created
     var inicio = new Audio("https://vazeri.github.io/mp3/inicio.ogg"); // buffers automatically when created
-    var move = new Audio("https://vazeri.github.io/mp3/move.wav"); // buffers automatically when created
+//    var move = new Audio("https://vazeri.github.io/mp3/move.wav"); // buffers automatically when created
 
           snd.play();
 
@@ -1062,7 +1062,7 @@ function Asteroids() {
 		// update player
 		// move forward
 		if ( (this.keysPressed[code('up')]) || (this.keysPressed[code('W')]) ) {
-            move.play();
+     //       move.play();
             this.vel.add(this.dir.mulNew(acc * tDelta)
 			
 			);
