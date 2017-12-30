@@ -17,11 +17,11 @@ var snowStorm = (function(window, document) {
 
   this.autoStart = true;          // Whether the snow should start automatically or not.
   this.excludeMobile = true;      // Snow is likely to be bad news for mobile phones' CPUs (and batteries.) Enable at your own risk.
-  this.flakesMax = 128;           // Limit total amount of snow made (falling + sticking)
-  this.flakesMaxActive = 128;     // Limit amount of snow falling at once (less = lower CPU use)
-  this.animationInterval = 30;    // Theoretical "miliseconds per frame" measurement. 20 = fast + smooth, but high CPU use. 50 = more conservative, but slower
-  this.useGPU = true;             // Enable transform-based hardware acceleration, reduce CPU load.
-  this.className = null;          // CSS class name for further customization on snow elements
+  this.flakesMax = 72;           // Limit total amount of snow made (falling + sticking)
+  this.flakesMaxActive = 72;     // Limit amount of snow falling at once (less = lower CPU use)
+  this.animationInterval = 20;    // Theoretical "miliseconds per frame" measurement. 20 = fast + smooth, but high CPU use. 50 = more conservative, but slower
+  this.useGPU = false;             // Enable transform-based hardware acceleration, reduce CPU load.
+  this.snow = true;          // CSS class name for further customization on snow elements
   this.excludeMobile = false;     // Snow is likely to be bad news for mobile phones' CPUs (and batteries.) By default, be nice.
   this.flakeBottom = null;        // Integer for Y axis snow limit, 0 or null for "full-screen" snow effect
   this.followMouse = false;       // Snow movement can respond to the user's mouse
@@ -38,11 +38,11 @@ var snowStorm = (function(window, document) {
 
   this.freezeOnBlur = true;       // Only snow when the window is in focus (foreground.) Saves CPU.
   this.flakeLeftOffset = 0;       // Left margin/gutter space on edge of container (eg. browser window.) Bump up these values if seeing horizontal scrollbars.
-  this.flakeRightOffset = 0;      // Right margin/gutter space on edge of container
-  this.flakeWidth = 24;            // Max pixel width reserved for snow element
-  this.flakeHeight = 24;           // Max pixel height reserved for snow element
+  this.flakeRightOffset = -100;      // Right margin/gutter space on edge of container
+  this.flakeWidth = 6;            // Max pixel width reserved for snow element
+  this.flakeHeight = 6;           // Max pixel height reserved for snow element
   this.vMaxX = 1;                 // Maximum X velocity range for snow
-  this.vMaxY = 2;                 // Maximum Y velocity range for snow
+  this.vMaxY = 1;                 // Maximum Y velocity range for snow
   this.zIndex = 1000;                // CSS stacking order applied to each snowflake
 
   // --- "No user-serviceable parts inside" past this point, yadda yadda ---

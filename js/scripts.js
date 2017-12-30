@@ -73,7 +73,7 @@ $(document).ready(function(e) {
 				 var widthAnim = $(this).attr("data-percentage");
 				 $(this).css('width', widthAnim + '%');
       });
-	}, { offset: '75%' });
+	}, { offset: '100%' });
 	
 	/*Swipebox Initialisation*/
 	$('.swipebox').swipebox();
