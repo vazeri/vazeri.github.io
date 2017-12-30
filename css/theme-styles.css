@@ -1576,7 +1576,7 @@ footer span {
 	.awards .inner{ width: 105%;}
 }
 @media screen and (max-width: 403px) {
-	.skillset { margin-top: -97px; }
+	.skillset { margin-top: -70px; }
 	.sidebar h2 { font-size: 1.5em; margin-bottom: 8px;}
 	.sidebar p {
 		font-size: 1.1em !important;
@@ -1587,7 +1587,7 @@ footer span {
 @media screen and (max-width: 360px) {
 	body { font-size: 130%; }
 	.skill .column.heading { font-size: 50% !important; }
-	.skillset { margin-top: -97px; }
+	.skillset { margin-top: -70px; }
 	h1 { font-size: 2em; }
 	.sidebar h3 { font-size: 1em; }
 }
