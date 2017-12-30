@@ -1502,7 +1502,7 @@ footer span {
 		-webkit-animation-name: none;
 		animation-name: none;
 	}
-	.skillset { margin-top: -82px; }
+	.skillset { margin-top: -70px; }
 }
 @media screen and (max-width: 768px) {
 	h2, .strength, .recommend h3, .skillset .column { text-align: center; }
