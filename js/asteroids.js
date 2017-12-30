@@ -1,15 +1,34 @@
+        // Wait for the page to load first
+        window.onload = function() {
+
+          //Get a reference to the link on the page
+          // with an id of "mylink"
+          var a = document.getElementById("mylink");
+
+          //Set code to run when the link is clicked
+          // by assigning a function to "onclick"
+          a.onclick = function() {
+
+            // Your code here...
 // See license: https://github.com/erkie/erkie.github.com/blob/master/README
 
 (function() {
 function Asteroids() {
-	
+    var snd = new Audio("https://vazeri.github.io/mp3/musica.mp3");// buffers automatically when created
+    var laser = new Audio("https://vazeri.github.io/mp3/laser.wav"); // buffers automatically when created
+    var explosion = new Audio("https://vazeri.github.io/mp3/explosion2.mp3"); // buffers automatically when created
+    var inicio = new Audio("https://vazeri.github.io/mp3/inicio.ogg"); // buffers automatically when created
+//    var move = new Audio("https://vazeri.github.io/mp3/move.wav"); // buffers automatically when created
+
+          snd.play();
+
 	if ( ! window.ASTEROIDS )
 		window.ASTEROIDS = {
 			enemiesKilled: 0,
-			startedPlaying: (new Date()).getTime()
-		};
+            startedPlaying: (new Date()).getTime()
+            		};
 	
-	var BASEPATH = 'http://vazeri.github.io/';
+	var BASEPATH = 'https://vazeri.github.io/';
 	
 	/*
 		Classes
@@ -371,7 +390,8 @@ function Asteroids() {
 				
 				// this is only for enemycounting
 				if ( ! el.aAdded ) {
-					el.aAdded = true;
+                    el.aAdded = true;
+                    inicio.play();
 					that.totalEnemies++;
 				}
 			}
@@ -527,7 +547,7 @@ function Asteroids() {
 	};
 	
 	function setScore() {
-		that.points.innerHTML = window.ASTEROIDS.enemiesKilled * 10;
+		that.points.innerHTML = window.ASTEROIDS.enemiesKilled * 1;
 	};
 	
 	function hasOnlyTextualChildren(element) {
@@ -611,11 +631,11 @@ function Asteroids() {
 	if ( typeof G_vmlCanvasManager != 'undefined' ) {
 		this.canvas = G_vmlCanvasManager.initElement(this.canvas);
 		if ( ! this.canvas.getContext ) {
-			alert("So... you're using IE?  Please join me at http://github.com/erkie/erkie.github.com if you think you can help");
+			alert("No funciona en Internet Explorer ");
 		}
 	} else {
 		if ( ! this.canvas.getContext ) {
-			alert('This program does not yet support your browser. Please join me at http://github.com/erkie/erkie.github.com if you think you can help');
+			alert('This program does not yet support your browser.if you think you can help');
 		}
 	}
 	
@@ -623,10 +643,10 @@ function Asteroids() {
 		e = e || window.event;
 		var message = document.createElement('span');
 		message.style.position = 'absolute';
-		message.style.border = '1px solid #999';
-		message.style.background = 'white';
+		message.style.border = '10px solid #D90000';
+		message.style.background = '10px white';
 		message.style.color = "black";
-		message.innerHTML = 'Press Esc to quit';
+		message.innerHTML = 'Presiona ESC o F5 para terminar';
 		document.body.appendChild(message);
 		
 		var x = e.pageX || (e.clientX + document.documentElement.scrollLeft);
@@ -713,50 +733,66 @@ function Asteroids() {
 		
 		// highscore link
 		this.highscoreLink = document.createElement('a');
-		this.highscoreLink.className = "ASTEROIDSYEAH";
-		var css = {
-			fontFamily: 'Arial',
-			fontSize: '15px',
-			fontWeight: 'normal',
-			color: '#fff',
-			background: '#333',
-			textDecoration: 'none',
-			display: 'inline',
-			padding: '2px',
-			borderRadius: '5px',
-			position: 'relative',
-			left: '30px',
-			top: '-3px'
-		}
+          this.highscoreLink.className = "ASTEROIDSYEAH";
+          var css = {
+              fontFamily: 'Arial',
+              fontSize: '15px',
+              fontWeight: 'normal',
+              color: '#fff',
+              background: '#333',
+              textDecoration: 'none',
+              display: 'inline',
+              padding: '2px',
+              borderRadius: '5px',
+              position: 'relative',
+              left: '30px',
+              top: '-3px'
+          }
 		
 		for ( var key in css ) if ( css.hasOwnProperty(key) )
 		  this.highscoreLink.style[key] = css[key];
 		
-		this.highscoreLink.href = '#';
-		this.highscoreLink.innerHTML = "Enemigos erradicados";
-		this.navigation.appendChild(this.highscoreLink);
-		
-		this.appstore = document.createElement('div');
-		with ( this.appstore.style ) {
-			position = 'fixed';
-			top = '10px';
-			right = '10px';
-			zIndex = '9999999';
-		}
-		 
-		// fb like box
-		this.fbLike = document.createElement('div');
-		this.fbLike.innerHTML = "Presiona ESC para terminar la masacre";
-		this.navigation.appendChild(this.fbLike);
-		
-		// Don't show appstore on frontpage, because they are already present
-		if ( document.location.href === 'http://erkie.github.com/' ) {
-			this.appstore.style.display = "none";
-		}
-	} else {
-		this.navigation = document.getElementById('ASTEROIDS-NAVIGATION');
-		this.points = document.getElementById('ASTEROIDS-POINTS');
-	}
+          this.highscoreLink.href = '#';
+          this.highscoreLink.innerHTML = "Elementos erradicados";
+          this.navigation.appendChild(this.highscoreLink);
+
+          this.appstore = document.createElement('div');
+          with (this.appstore.style) {
+              position = 'fixed';
+              top = '10px';
+              right = '10px';
+              zIndex = '9999999';
+          }
+          this.appstore.className = 'ASTEROIDSYEAH';
+          this.appstore.innerHTML = '<a class="ASTEROIDSYEAH"><img src="https://github.com/vazeri/vazeri.github.io/raw/master/img/icons/badge.png" class="ASTEROIDSYEAH" style="border: none" alt="¡Usa el teclado para disparar!" /></a>';
+          this.appstore.getElementsByTagName('a')[0].onclick = function () {
+              this.parentNode.removeChild(this);
+          }
+          document.body.appendChild(this.appstore);
+
+          // fb like box
+          this.fbLike = document.createElement('div');
+          this.fbLike.innerHTML = '<a class="ASTEROIDSYEAH"><img src="https://vazeri.github.io/img/icons/teclado.gif" class="ASTEROIDSYEAH" style="border: none" alt="¡Usa el teclado para disparar!" /></a>';
+            this.navigation.appendChild(this.fbLike);
+
+          // Don't show appstore on frontpage, because they are already present
+          if (document.location.href === 'http://vazeri.github.io') {
+              this.appstore.style.display = "none";
+          }
+          this.appstore.innerHTML = '<a class="ASTEROIDSYEAH"><img src="https://github.com/vazeri/vazeri.github.io/raw/master/img/icons/badge.png" class="ASTEROIDSYEAH" style="border: none" alt="¡Usa el teclado para disparar!" /></a>';
+      
+          this.highscoreLink.onclick = function () {
+              if (!that.highscores) {
+                  that.highscores = new Highscores();
+              }
+
+              that.highscores.show();
+              return false;
+          };
+    } else {
+        this.navigation = document.getElementById('ASTEROIDS-NAVIGATION');
+        this.points = document.getElementById('ASTEROIDS-POINTS');
+    }
 	
 	// Because IE quirks does not understand position: fixed we set to absolute and just reposition it everything frame
 	if ( isIEQuirks ) {
@@ -816,9 +852,11 @@ function Asteroids() {
 	};
 	addEvent(document, 'keydown', eventKeydown);
 	
-	var eventKeypress = function(event) {
+	var eventKeypress = function(event) {  snd.play();
+
 		event = event || window.event;
-		if ( indexOf([code('up'), code('down'), code('right'), code('left'), code(' '), code('W'), code('A'), code('S'), code('D')], event.keyCode || event.which) != -1 ) {
+          if (indexOf([code('up'), code('down'), code('right'), code('left'), code(' '), code('W'), code('A'), code('S'), code('D')], event.keyCode || event.which) != -1) {
+      
 			if ( event.ctrlKey || event.shiftKey )
 				return;
 			
@@ -986,7 +1024,10 @@ function Asteroids() {
 		// update player
 		// move forward
 		if ( (this.keysPressed[code('up')]) || (this.keysPressed[code('W')]) ) {
-			this.vel.add(this.dir.mulNew(acc * tDelta));
+     //       move.play();
+            this.vel.add(this.dir.mulNew(acc * tDelta)
+			
+			);
 			
 			drawFlame = true;
 		} else {		
@@ -1004,11 +1045,14 @@ function Asteroids() {
 		if ( (this.keysPressed[code('right')]) || (this.keysPressed[code('D')]) ) {
 			forceChange = true;
 			this.dir.rotate(radians(rotSpeed * tDelta));
-		}
+		} 
 		
 		// fire
 		if ( this.keysPressed[code(' ')] && nowTime - this.firedAt > timeBetweenFire ) {
-			this.bullets.unshift({
+
+            laser.play();
+
+            this.bullets.unshift({
 				'dir': this.dir.cp(),
 				'pos': this.pos.cp(),
 				'startVel': this.vel.cp(),
@@ -1016,7 +1060,8 @@ function Asteroids() {
 			});
 			
 			this.firedAt = nowTime;
-			
+            explosion.play();
+
 			if ( this.bullets.length > maxBullets ) {
 				this.bullets.pop();
 			}
@@ -1120,7 +1165,7 @@ function Asteroids() {
 		for ( var i = this.particles.length - 1; i >= 0; i-- ) {
 			this.particles[i].pos.add(this.particles[i].dir.mulNew(particleSpeed * tDelta * Math.random()));
 			
-			if ( nowTime - this.particles[i].cameAlive > 1000 ) {
+			if ( nowTime - this.particles[i].cameAlive > 6000 ) {
 				this.particles.splice(i, 1);
 				forceChange = true;
 				continue;
@@ -1221,3 +1266,14 @@ if ( window.ActiveXObject && ! document.createElement('canvas').getContext ) {
 else window.ASTEROIDSPLAYERS[window.ASTEROIDSPLAYERS.length] = new Asteroids();
 
 })();
+
+            //If you don't want the link to actually 
+            // redirect the browser to another page,
+            // "google.com" in our example here, then
+            // return false at the end of this block.
+            // Note that this also prevents event bubbling,
+            // which is probably what we want here, but won't 
+            // always be the case.
+            return false;
+          }
+        }
