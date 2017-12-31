@@ -296,7 +296,7 @@ img {
 	padding: 0 6.575342465753425%; /*48/730*/
 }
 .contact-details {
-	padding: 20px 50px;
+	padding: 40px 50px;
 	background-color: rgba(44,62,80,0.8);
 }
 
@@ -1566,7 +1566,7 @@ footer span {
 		bottom: 0 !important;
 	}
 	.contact-details {
-		padding: 15px 15px 5px 15px;
+		padding: 15px 15px 15px 15px;
 	}
 	.contact-details h2, .contact-details p {
 		font-weight: 1em !important;
