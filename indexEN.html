@@ -2,9 +2,9 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Ing. Erick Vázquez - Sitio web personal</title>
-    <meta name="description" content="Aquí podrá encontrar las últimas actualizaciones sobre mis actividades, proyectos, colaboraciones, publicaciones y labores." />
-    <meta name="keywords" content="diseño responsivo, sitio web personal, currículo, en línea, ingeniero, electrónico, comunicaciones, diseño, grafico, circuito, programación" />
+    <title>Erick Vázquez - Technological portfolio</title>
+    <meta name="description" content="Here you will find my latest updates about my activities, projects, colaborations and publications." />
+    <meta name="keywords" content="engineer, electrical, embedded,  electronics, CV, Curriculum, circuits, coding" />
     <meta name="author" content="Erick Vázquez" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta name="theme-color" content="#0066A1" />
@@ -17,25 +17,10 @@
     <!--Swipebox-->
     <link href="css/swipebox.css" rel="stylesheet" media="screen">
     <!--Icon Fonts-->
-    <link href="css/telly-icons.css" rel="stylesheet" media="screen">
     <link href="css/social-icons.css" rel="stylesheet" media="screen">
+    <link href="css/fontello.css" rel="stylesheet" media="screen">
     <!--Screen Theme Styles-->
     <link href="css/theme-styles.css" rel="stylesheet" media="screen">
-    <!--Modernizr-->
-    <script src="js/modernizr.custom.js"></script>
-    <!--Google Analytics-->
-    <script>
-        (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-            (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date(); a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-
-        ga('create', 'UA-96230731-1', 'auto');
-        ga('send', 'pageview');
-    </script>
-    <!--Facebook Remarketing (Placed in <head>))-->
 </head>
 <!--Body-->
 <body>
@@ -53,12 +38,11 @@
                     <div class="contact-details">
                         <div class="wrapper3">
                             <p class="large light-text">
-                                <b><a href=tel:5574-4822> 55 2526 7770</a></b>
-                            <p class="large light-text">
+                                <i class="icon-whatsapp"></i><b><a href=tel:5525267770> <u>(55) 2526 7770</u></a></b><br />
                                 Mexico City, (CDMX)<br />
                                 <a href="mailto:erick@ahorratec.org">erick@ahorratec.org</a><br />
                                 <a href="https://vazeri.github.io/">vazeri.github.io</a>
-                            </p>
+							</p>
                         </div>
                     </div>
                 </div>
@@ -67,8 +51,36 @@
         <!--Content-->
         <div class="content-right">
             <div class="strip"></div>
-            <section class="translation" style="text-align: center" id="trans">
-                <button class="btn2 btn-primary pull-right" onclick="location.href='https://vazeri.github.io/index.html'" type="button">Leer en Español</button>
+			<section class="files full-width" id="botones">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <a>
+                            <button class=" btn3 btn-primary pull-right"
+                                    onclick="location.href='https://vazeri.github.io/repo/'"
+                                    type="button">
+                                <b>Digital Cave</b>
+                            </button>
+                        </a>
+                    </div>
+                    <div class="col-lg-4">
+                        <a>
+                            <button class="btn3 btn-primary pull-left"
+                                    onclick="location.href='#contact-form'"
+                                    type="button">
+                                <b>CONTÁCT ME</b>
+                            </button>
+                        </a>
+                    </div>
+                    <div class="col-lg-4">
+                        <a>
+                            <button class="btn3 btn-primary pull-right"
+                                    onclick="location.href='https://vazeri.github.io/index.html'" type="button">
+                                <b>en Español</b>
+                            </button>
+                        </a>
+
+                    </div>
+                </div>
             </section>
 
             <!--       <section class="translation" id="trans">
@@ -91,15 +103,21 @@
             </div>
             </section>-->
             <section id="intro">
-                <a class="navi-link scroll-up" href="#intro" id="1"><i class="icon-user"></i></a>
+                <a class="navi-link scroll-up" href="#intro" id="1">
+				<i class="icon-user-circle-o"></i></a>
                 <div class="row">
                     <div class="col-lg-12">
-                        <a class="navi-link scroll-up" href="#intro" id="1"><i class="icon-user"></i></a>
                         <div class="row"></div>
                         <h2>Short BIO</h2>
-                        <p class="large"> Empathic, perfectionist, determined and of strong character with an unique ability to manage multidisciplinary projects and navigate through complex challenges. I can get quite technical if necessary, but I prefer a graphic language that allows me to communicate effectively to offer solutions in: </p>
+                        <p class="large">
+                            Empathic, perfectionist, determined and of strong
+                            character with an unique ability to manage multidisciplinary projects
+                            and navigate through complex challenges. I can get quite technical if
+                            necessary, but I prefer a graphic language that allows me to communicate
+                            effectively to offer solutions in:
+                        </p>
                     </div>
-                </div>      <a class="navi-link scroll-up" href="#intro" id="1"><i class="icon-user"></i></a>
+                </div>
 
             </section>
             <!--Fortalezas-->
@@ -112,7 +130,10 @@
                             <div class="col-lg-4 col-md-4 col-sm-4"><img src="img/strength/uc.svg" alt="Diseño embebido/electrónico" /></div>
                             <div class="col-lg-8 col-md-8 col-sm-8">
                                 <h3>Embedded design</h3>
-                                <p>Design, welding and circuit programming, from transistors to microcontrollers.  </p>
+                                <p>
+                                    Design, welding and circuit programming, from transistors
+                                    to high level micro controllers.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -141,19 +162,40 @@
                             <div class="col-lg-4 col-md-4 col-sm-4"><img src="img/strength/elec.svg" alt="Sistemas electricos" /></div>
                             <div class="col-lg-8 col-md-8 col-sm-8">
                                 <h3>Electrical systems</h3>
-                                <p> Residential to industrial, from their operation, to their design and maintenance.</p>
+                                <p> Residential to industrial, from their operation, to their design and maintenance under the code NOM-001 (Mexico) and NEC (USA))</p>
                             </div>
 
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="row strength">
+                            <div class="col-lg-4 col-md-4 col-sm-4"><img src="img/strength/pi.svg" alt="Propiedad intelectual" /></div>
+                            <div class="col-lg-8 col-md-8 col-sm-8">
+                                <h3>Intelectual property</h3>
+                                <p>Patents, Utiliy models, Industrial designs, software licenses, State of the art searches.</p>
                             </div>
                         </div>
                     </div>
-                
+                    <div class="col-lg-6">
+                        <div class="row strength">
+                            <div class="col-lg-4 col-md-4 col-sm-4"><img src="img/strength/nom.svg" alt="Certificaciones" /></div>
+                            <div class="col-lg-8 col-md-8 col-sm-8">
+                                <h3>National Codes</h3>
+                                <p>Official Norms Mexican and American, NEC, NOMs, NMX</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </section>
             <!--Habilidades-->
-            <section class="full-width skills" id="skills">
+            <section class="full-width" id="skills">
                 <a class="navi-link center scroll" href="#skills" id="4"><i class="icon-tools"></i></a>
                 <div class="color-heading">
-                    <h2>SKILLS</h2>
+                    <h2>¿HOW GOOD AM I?</h2>
                 </div>
                 <div class="skillset">
                     <div class="skill">
@@ -163,56 +205,46 @@
                             </div>
                         </div>
                     </div>
+                    <div class="skill red">
+                        <div class="row">
+                            <span class="indicator red" data-percentage="75"></span>
+                            <div class="col-lg-6 title">Embedded Design</div>
+                        </div>
+                    </div>
                     <div class="skill blue">
                         <div class="row">
-                            <span class="indicator blue" data-percentage="70"></span>
-                            <div class="col-lg-5 col-md-4 col-sm-4 title">Coding</div>
-                            <div class="col-lg-7 col-md-8 col-sm-8">
-                                <div class="column group"><i class="skill-icon experience"></i></div>
-                            </div>
+                            <span class="indicator blue" data-percentage="60"></span>
+                            <div class="col-lg-6 title">Coding</div>
                         </div>
                     </div>
                     <div class="skill orange">
                         <div class="row">
-                            <span class="indicator orange" data-percentage="90"></span>
-                            <div class="col-lg-5 col-md-4 col-sm-4 title">Graphic Design</div>
-                            <div class="col-lg-7 col-md-8 col-sm-8">
-                                <div class="column group"><i class="skill-icon experience"></i></div>
-                            </div>
+                            <span class="indicator orange" data-percentage="80"></span>
+                            <div class="col-lg-6 title">Electrical Systems</div>
                         </div>
                     </div>
                     <div class="skill green">
                         <div class="row">
-                            <span class="indicator green" data-percentage="60"></span>
-                            <div class="col-lg-5 col-md-4 col-sm-4 title">Embedded Design</div>
-                            <div class="col-lg-7 col-md-8 col-sm-8">
-                                <div class="column group"><i class="skill-icon experience"></i></div>
-                            </div>
+                            <span class="indicator green" data-percentage="75"></span>
+                            <div class="col-lg-6 title">Graphic Design</div>
                         </div>
                     </div>
                     <div class="skill violet">
                         <div class="row">
-                            <span class="indicator violet" data-percentage="40"></span>
-                            <div class="col-lg-5 col-md-4 col-sm-4 title">Computer Networks</div>
-                            <div class="col-lg-7 col-md-8 col-sm-8">
-                                <div class="column group"><i class="skill-icon experience"></i></div>
-                            </div>
+                            <span class="indicator violet" data-percentage="66"></span>
+                            <div class="col-lg-6 title"> Intellectual Property</div>
                         </div>
                     </div>
                     <div class="skill black">
                         <div class="row">
-                            <span class="indicator black" data-percentage="50"></span>
-                            <div class="col-lg-5 col-md-4 col-sm-4 title">Electrical Systems</div>
-                            <div class="col-lg-7 col-md-8 col-sm-8">
-                                <div class="column group"><i class="skill-icon experience"></i></div>
-                            </div>
+                            <span class="indicator black" data-percentage="45"></span>
+                            <div class="col-lg-6 title">National Codes</div>
                         </div>
                     </div>
                 </div>
-            </section>
-            <!--Actividades-->
+            </section>  <!--Actividades-->
             <section class="experience-block" id="experience">
-                <a class="navi-link scroll-top-40" href="#experience" id="5"><i class="icon-computer"></i></a>
+                <a class="navi-link scroll-top-40" href="#experience" id="5"><i class="icon-television"></i></a>
                 <div class="row"><div class="col-lg-12"><h2>Currently</h2></div></div>
                 <div class="group">
                     <div class="col-1">
@@ -221,7 +253,7 @@
                     <div class="col-2 group">
                         <div class="devider"><span class="square"></span><span class="line"></span></div>
                         <h3>Ahorratec.org</h3>
-                        <h4>Technical representative</h4>
+                        <h4>Technnological representative</h4>
                         <p>I work on the development of a commercial technology product under the technology maturation methodology of the NASA, with the purpose of participating in the CONACYT call within the Technological Innovation Fund in 2017.</p>
                     </div>
                 </div>
@@ -269,16 +301,15 @@
             </section>
             <!--Portafolio-->
             <section class="portfolio full-width" id="portfolio">
-                <a class="navi-link center scroll" href="#portfolio" id="7"><i class="icon-pictures"></i></a>
+                <a class="navi-link center scroll" href="#portfolio" id="7"><i class="icon-suitcase"></i></a>
                 <div class="color-heading">
-                    <h2>Portafolio</h2>
+                    <h2>Portfolio</h2>
                 </div>
                 <div class="portfolio-filter group">
-                    <a class="active" href="#" data-group="all">All</a>
                     <a href="#" data-group="code">Software</a>
                     <a href="#" data-group="electronica">Electronics</a>
                     <a href="#" data-group="electrica">Electrical</a>
-                    <a href="#" data-group="design">Design</a>
+                    <a href="#" data-group="design">Graphic</a>
                     <a href="#" data-group="red">Networks</a>
                 </div>
                 <div class="portfolio-items">
@@ -481,6 +512,16 @@
                             <img src="img/portfolio/th_20.jpg" alt="image" />
                         </a>
                     </div>
+                    <div class="portfolio-item" data-groups='["design"]'>
+                        <a href="img/portfolio/21.jpg" class="swipebox" title="Instalación de centro de carga trifasico">
+                            <div class="overlay"><i class="zoom-icon"></i></div>
+                            <div class="description">
+                                <h3>Electrical Systems</h3>
+                                <p>Design and installation</p>
+                            </div>
+                            <img src="img/portfolio/th_21.jpg" alt="image" />
+                        </a>
+                    </div>
 
                 </div>
 
@@ -488,7 +529,7 @@
             </section>
             <!--Actualmente-->
             <section class="awards color-bg full-width" id="awards">
-                <a class="navi-link center scroll" href="#awards" id="8"><i class="icon-target"></i></a>
+                <a class="navi-link center scroll" href="#awards" id="8"><i class="icon-archive"></i></a>
                 <div class="color-heading">
                     <h2>LASTEST PROJECTS</h2>
                 </div>
@@ -503,33 +544,57 @@
                             </div>
                             <div style="background:url(img/awards/aparato.jpg) no-repeat;" class="award-2">
                                 <a class="text" href="https://www.youtube.com/watch?v=miyeMtCeNrY" target="_blank">
-                                    <!--               <h3 class="light-text">FIT CONACYT 2016</h3>
-                                                       <p class="light-text middle">Entrevista F.I.T. 2016 (Video).</p>
-                                                        -->
+                                    <h3 class="light-text">FIT CONACYT 2016</h3>
+                                    <p class="light-text middle">Introduction to F.I.T. 2016 (Video).</p>
+
                                 </a>
                             </div>
                         </div>
                         <div class="col-lg-6 award-text">
+
                             <h3>Technological Innovation Fund</h3>
+                            <h4>IoT Energy Monitoring System</h4>
                             <p>
-                            During the last year I focused my efforts on the application of the technology readyness methodology of NASA applied by CONACYT, to participate in July 2017 in the call of the Technological Innovation Fund.</p>
-                            
-                            <p>The objective is to generate a commercial product, easily assembled and of easy installation that allows real-time monitoring of electrical consumption in residential electrical installations and display the information available in a web application to help people to have an effective management over the cost of the energy used, although there are still details to address within the business model, theres already a significant advance in technology and the <a href="https://github.com/vazeri/vazeri.github.io/raw/master/pdf/TRL.pdf">methodology</a>.</p>
+                                During the last year I focused my efforts on the application of the
+                                <a href="https://www.nasa.gov/directorates/heo/scan/engineering/technology/txt_accordion1.html"
+                                   target="_blank">technology readiness level</a> methodology of NASA applied by CONACYT,
+                                to participate in July 2017 in the call of the <a href="https://www.youtube.com/watch?v=miyeMtCeNrY"
+                                                                                  target="_blank">Technological Innovation Fund.</a>
+
+                            </p>
 
                             <p>
-                                The results can be consulted at
-                                <a href="https://www.ahorratec.org/" target="_blank">ahorratec.org</a>, where I worked as a technical representative during the entire project.
+                                <b>
+                                    The objective was to generate a commercial product, easily assembled and of easy
+                                    installation to allow real-time consumption monitoring of electrical residential
+                                    installations
+                                </b> and display the information available in any kind of device, through
+                                <a href="http://www.ahorratec.org/" target="_blank">Ahorratec.org </a>
                             </p>
-<p>I ended the project due to the goverment funds not being available in 2017 (Call for projects didnt come out as expected), I thank all those who gave me their trust and participated in the project directly or indirectly. <b> As far as my skills are concerned, I will most likely continue to develop it on post-graduate education.</b>
-</div>
+                            <p>
+
+
+                                The development of this project had a bit of every discipline, from
+                                administration, countability, intellectual property, low and high-level programming,
+                                scientific research that I had to put my hands on as an entrepreneur and technical representative
+                                during the project
+                            <p>
+                                <b>The call not coming out in 2017, forced me to end the project </b> due to it being integral part of 
+                                the business model to mature the technological development, I thank
+                                to my investors and personal that gave me their trust directly or indirectly, I will keep working on my spare time
+                                and probably will keep updating it with the latest technologies in a master’s degree.
+
+                            </p>
+
+                        </div>
                     </div>
                 </div>
             </section>
             <!--Intereses de Investigación-->
             <section class="recommend full-width" id="recommend">
-                <a class="navi-link center scroll" href="#recommend" id="9"><i class="icon-heart"></i></a>
+                <a class="navi-link center scroll" href="#recommend" id="9"><i class="icon-heartbeat"></i></a>
                 <div class="color-heading">
-                    <h2>Research interests</h2>
+                    <h2>Professional interests</h2>
                 </div>
                 <div class="inner">
                     <div class="row">
@@ -537,9 +602,9 @@
                             <img class="img-circle img-center" src="img/recommend/1.jpg" alt="Non Invasive Load Monitoring" />
                         </div>
                         <div class="col-lg-10 col-md-9">
-                            <h3>Non Invasive Load Monitoring</h3>
-                            <p> Measurement of power in electrical installations without interrupting the flow of electrons in electrical conductors, to provide information to the user about their electricity consumption in real time.</p>
-         </div>
+                            <h3>Industrial Internet of things</h3>
+                            <p> Measurement and control of electrical and electronic systems on real time (telemetry).</p>
+                        </div>
                     </div>
 
                     <div class="row">
@@ -547,10 +612,10 @@
                             <img class="img-circle img-center" src="img/recommend/2.jpg" alt="Distorsiones Armonicas" />
                         </div>
                         <div class="col-lg-10 col-md-9">
-                            <h3>Harmonic Distortions and Energy Quality </h3>
+                            <h3>Solid state power electronics </h3>
 
-                            <p>How electrical and electronic devices are affected by frequencies that alter fundamental, and how the energy efficiency in installations is altered by this phenomenon.</p>
-            </div>
+                            <p>Integration of circuitery to nanoscopic size, to create new devices and products dealing with high power.</p>
+                        </div>
                     </div>
                     <div class="row">
                         <div class="col-lg-2 col-md-3">
@@ -559,13 +624,13 @@
                         <div class="col-lg-10 col-md-9">
                             <h3>Energy disagregation</h3>
                             <p>The identification of electronic devices by means of statistical processes through measurement systems.</p>
-       </div>
+                        </div>
                     </div>
                 </div>
             </section>
             <!--Publicaciones-->
             <section class="hobby color-bg full-width" id="hobby">
-                <a class="navi-link center scroll" href="#hobby" id="10"><i class="icon-papirus"></i></a>
+                <a class="navi-link center scroll" href="#hobby" id="10"><i class="icon-book"></i></a>
                 <div class="color-heading">
                     <h2>Publications</h2>
                 </div>
@@ -587,11 +652,32 @@
                     </div>
                 </div>
             </section>
+            <!--Reconocimientos-->
+            <section class="hobby color-bg full-width" id="prize">
+                <a class="navi-link center scroll" href="#prize" id="11"><i class="icon-award"></i></a>
+                <div class="color-heading">
+                    <h2>Acknowledgments</h2>
+                </div>
+                <div class="inner">
+                    <div class="row">
+                        <div class="container-fluid">
+                            <p>Acknowledgment - <a href="https://github.com/vazeri/vazeri.github.io/raw/master/img/awards/4.jpg" target="_blank">"1er Lugar en concurso Inter politécnico de Administración y Calidad" </a> - CET Walter Cross Buchanan - 2008 </p>
+                            <p>Acknowledgment - <a href="https://github.com/vazeri/vazeri.github.io/raw/master/img/awards/6.jpg" target="_blank">"Torneo nacional entre las mejores 16 empresas" -</a> - GreenMomentum, USAID - CleanTech Challenge México 3era Edición" - 2013 </p>
+                            <p>Acknowledgment - <a href="https://github.com/vazeri/vazeri.github.io/raw/master/img/awards/cenlex.jpg" target="_blank">"Termino de Idioma de Ingles Avanzado" </a> - CENLEX, Zacatenco - 2014 </p>
+                            <p>Certificate - <a href="https://github.com/vazeri/vazeri.github.io/raw/master/img/awards/GoogleTag.jpg" target="_blank">"Tag Manager Fundamentals"</a> - Google Analytics Academy  - 2017 </p>
+                            <p>Certificate - <a href="https://github.com/vazeri/vazeri.github.io/raw/master/img/awards/GoogleAdv.jpg" target="_blank">Analytics for Beginners </a> - Google Analytics Academy - 2017 </p>
+                            <p>Certificate - <a href="https://github.com/vazeri/vazeri.github.io/raw/master/img/awards/6.jpg" target="_blank">"Advanced Google Analytics"</a> -  Google Analytics Academy - 2017 </p>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <!--Forma de Contacto-->
             <section id="contact-form">
                 <a class="navi-link scroll-top-40" href="#contact-form" id="11"><i class="icon-envelope"></i></a>
                 <h2>CONTACT ME</h2>
-                <p>You can send me a message using this form, and as soon as I have an opportunity, I will review it and respond to your email as soon as possible; If you want to start a chat directly with me you can send me a message via Whatsapp to the number +52 55 2526 7770 and I will gladly assist you to resolve your concerns.</p>
+                <p>You can send me a message using this form, and as soon as I have an opportunity, I will gladly assist you to resolve your concerns.</p>
                 <div class="row">
                     <form action="https://formspree.io/gzerox@gmail.com" method="post" class="contact-form" role="form">
                         <input type="hidden" name="_language" value="es" />
@@ -619,21 +705,70 @@
             <!--Links-->
             <section class="files full-width" id="files">
                 <div class="row">
-
-                    <div class="col-lg-4"><a target="_blank" class="print-btn" href="https://github.com/vazeri/"><i class="icon-computer"></i><br />Repository</a></div>
-
-                    <div class="col-lg-4"><a href="https://github.com/vazeri/vazeri.github.io/raw/master/pdf/CVErickEN.pdf"><i class="icon-book"></i><br />Curriculum</a></div>
-
                     <div class="col-lg-4">
+                        <!--        <a target="_blank" class="print-btn" href="#"><i class="icon-youtube-play"></i><br /><b>Video CV</b></a>
+                            <a class="btn-grey"><i class="icon-youtube-play"></i><br /><b>Video CV</b></a>
+                        -->
 
-                        <a href="mailto:erick@ahorratec.org?Subject=Hola%20Erick" target="_blank"><i class="icon-envelope"></i><br />Send Email</a>
+
+                        <a class="btn-grey">
+                            <img src="img/icons/grabando.jpg" alt="¡Aun me encuentro grabando mi video CV!" />
+                        </a>
+
+                    </div>
+                    <div class="col-lg-4">
+                        <a href="https://github.com/vazeri/vazeri.github.io/raw/master/pdf/CVErickEN.pdf"><i class="icon-newspaper"></i><br /><b>Curriculum (PDF)</b></a>
+                    </div>
+                    <div class="col-lg-4">
+                        <a href="https://vazeri.github.io/repo" target="_blank"><i class="icon-dropbox"></i><br /><b>Digital Cave</b></a>
                     </div>
                 </div>
             </section>
 
+
+            <section id="contact-form">
+                <a class="navi-link scroll-top-40" href="#contact-form" id="12"><i class="icon-help-circled"></i></a>
+                <h2>BETWEEN US</h2>
+                <p> I love canaries, cats and i happen to like, to go out with my camera to take pictures, listen conferences and seminaries while i cook</p>
+            </section>
+
+            <section class=" visible-md visible-lg files full-width" id="asteroids">
+
+                <div class="row">
+
+                    <div class="col-xs-12" style="height:50px;"></div><div class="col-lg-4">
+                        <!--        <a target="_blank" class="print-btn" href="#"><i class="icon-youtube-play"></i><br /><b>Video CV</b></a>
+                        -->
+
+                        <a class="">
+                            <i class=""></i><br /><b>
+
+
+                            </b>
+                        </a>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="text-center">
+                                    <p> By the way... click the red button for... </p>
+                                    <button class="btn btn-red" id="mylink">ASTEROIDS!</button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                    </div>
+                </div>
+
+            </section>
+
+
             <!--Redes Sociales-->
+
             <section class="full-width" id="social">
-                <a class="navi-link center scroll" href="#social" id="12"><i class="icon-glass"></i></a>
+                <a class="navi-link center scroll" href="#social" id="12"><i class="icon-globe"></i></a>
                 <div class="color-heading">
                     <h2>Social</h2>
                 </div>
@@ -644,15 +779,17 @@
                     <div class="flickr-hover"><a href="https://www.flickr.com/photos/gzerodto/" target="_blank"><i class="flaticon-flickr"></i></a></div>
                 </div>
             </section>
-
             <!--Footer2-->
             <footer class="group">
-                <span>&copy;</span>
-                <p class="copyright light-text"><a href="https://vazeri.github.io" target="self"></a> Latest Update: <b>August 2017</b></p>
+                <span><i class="icon-arrows-cw"></i></span>
+                <p class="copyright light-text"><a href="https://vazeri.github.io" target="self"></a> Updated: <b>January 2018</b></p>
             </footer>
         </div><!--Content Close-->
     </div><!--Container Close-->
     <!--Javascript (jQuery) Libraries and Plugins-->
+    <script src="js/snowstorm.js"></script>
+    <script src="js/modernizr.custom.js"></script>
+    <script src="js/asteroids.js"></script>
     <script src="js/jquery-2.1.0.min.js"></script>
     <script src="js/jquery.easing.1.3.js"></script>
     <script src="js/waypoints.min.js"></script>
@@ -662,6 +799,7 @@
     <script src="js/jquery.placeholder.js"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/scripts.js"></script>
+    <script type="js/javascript" src="asteroids.js"></script>
 
     <!--Bind the swipebox behaviour on every link with the "swipebox" class.-->
     <script type="text/javascript">
