@@ -586,9 +586,9 @@
 				}
 
 				$( '#swipebox-close' ).bind( action, function( event ) {
-					$this.closeSlide();
 					event.preventDefault();
 					event.stopPropagation();
+					$this.closeSlide();
 				} );
 			},
 
