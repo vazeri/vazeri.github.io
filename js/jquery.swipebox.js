@@ -1,3 +1,4 @@
+
 /*! Swipebox v1.4.4 | Constantin Saguin csag.co | MIT License | github.com/brutaldesign/swipebox */
 
 ;( function ( window, document, $, undefined ) {
@@ -10,7 +11,7 @@
 				useCSS : true,
 				useSVG : true,
 				initialIndexOnArray : 0,
-				removeBarsOnMobile : false,
+				removeBarsOnMobile : true,
 				hideCloseButtonOnMobile : false,
 				hideBarsDelay : 3000,
 				videoMaxWidth : 1140,
@@ -584,8 +585,10 @@
 					} );
 				}
 
-				$( '#swipebox-close' ).bind( action, function() {
+				$( '#swipebox-close' ).bind( action, function( event ) {
 					$this.closeSlide();
+					event.preventDefault();
+					event.stopPropagation();
 				} );
 			},
 
