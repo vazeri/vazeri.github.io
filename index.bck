@@ -10,7 +10,7 @@
     <meta name="theme-color" content="#0066A1" />
     <!--Open Graph Protocol (OGP) para thumbs de FB y LinkedIn https://www.popwebdesign.net/what-is-ogp.html -->
 	<head lang="es" prefix="og: http://ogp.me/ns#">
-	<meta property="og:title" content="Erick Vázquez - Linux SysAdmin" />
+	<meta property="og:title" content="Erick Vázquez - Project Manager Certified Scrum Master" />
 	<meta property="og:url" content="https://vazeri.github.io/" />
 	<meta property="og:image" content="https://raw.githubusercontent.com/vazeri/vazeri.github.io/master/img/OGP.jpg" />
 	<meta property="og:image:width" content="1200" />
@@ -42,13 +42,13 @@
             <div class="sidebar">
                 <img src="img/profile-pic.jpg" alt="Erick Vázquez" />
                 <h1 class="light-text animated">Erick Vázquez </h1>
-                <h3 class="light-text animated">Linux SysAdmin</h3>
+                <h3 class="light-text animated">Scrum Master Certificado</h3>
                 <div class="contact-details-wrap animated">
                     <div class="contact-details">
                         <div class="wrapper3">
                             <p class="large light-text">
                                 <i class="icon-whatsapp"></i><b><a href=tel:5525267770> <u>(55) 2526 7770</u></a></b><br />
-                                Mexico City (CDMX)<br />
+                                Ciudad de México, (CDMX)<br />
                                 <a href="mailto:gzerox@gmail.com">gzerox@gmail.com</a><br />
                                 <a href="https://vazeri.github.io/">https://vazeri.github.io</a>
                             </p>
@@ -66,18 +66,18 @@
 					<div class="col-lg-4"><a>
                     <button class=" btn3 btn-primary pull-right"
 					onClick="window.open('https://vazeri.youcanbook.me');" type="button">
-					<b>Book Me</b></button></a></div>
+					<b>AGÉNDAME</b></button></a></div>
 
 					<div class="col-lg-4"><a><button class="btn3 btn-primary pull-right"
 					onclick="location.href='#contact-form'" type="button">
-					<b>CONTACT ME</b>
+					<b>CONTÁCTO</b>
 					</button></a></div>
 
 					<div class="col-lg-4">
 					<a>
 					<button class="btn3 btn-primary pull-right"
 					onclick="location.href='https://vazeri.github.io/indexEN.html'"type="button">
-					<b>IN SPANISH</b></button></a>
+					<b>IN ENGLISH</b></button></a>
 
                     </div>
                 </div>
@@ -112,12 +112,8 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="row"></div>
-                        <h2>Short BIO</h2>
-                        <p class="large">Empathic, perfectionist, determined and of strong
-                        character with an unique ability to manage multidisciplinary projects
-                        and navigate through complex challenges. I can get quite technical if
-                        necessary, but I prefer a graphic language that allows me to communicate
-                        effectively to offer solutions in:: </p>
+                        <h2>Semblanza</h2>
+                        <p class="large"> Empático, perfeccionista, decidido y de carácter fuerte, con una habilidad única para administrar proyectos multidisciplinarios y navegar a través de retos complejos, puedo ponerme bastante técnico si es necesario, pero prefiero un lenguaje gráfico que me permite comunicarme de manera efectiva, para ofrecer soluciones en: </p>
                     </div>
                 </div>
 
@@ -134,8 +130,8 @@
                                 <img src="img/strength/uc.svg" alt="Diseño embebido/electrónico" />
                             </div>
                             <div class="col-lg-8 col-md-8 col-sm-8">
-                                <h3>Embedded design</h3>
-                                <p>Analogic and digital design, welding and microcontroller programming, massive production and IoT devices.</p>
+                                <h3>Diseño embebido</h3>
+                                <p>Analogico y digital, soldadura, programación de micro-controladores, producción masiva.</p>
                             </div>
                         </div>
                     </div>
@@ -143,8 +139,8 @@
                         <div class="row strength">
                             <div class="col-lg-4 col-md-4 col-sm-4"><img src="img/strength/prog.svg" alt="Programacion de alto y bajo nivel" /></div>
                             <div class="col-lg-8 col-md-8 col-sm-8">
-                                <h3>Coding</h3>
-                                <p> C, C++, (Embedded), C#, HTML, CSS, JavaScript, Android (Front-End)</p>
+                                <h3>Programación</h3>
+                                <p> Unix, C, C++, Shell, C#, HTML, CSS, JavaScript, Bases de datos MySQL, Oracle y Android .</p>
                             </div>
                         </div>
                     </div>
@@ -154,8 +150,8 @@
                         <div class="row strength">
                             <div class="col-lg-4 col-md-4 col-sm-4"><img src="img/strength/gd.svg" alt="Diseño Grafico" /></div>
                             <div class="col-lg-8 col-md-8 col-sm-8">
-                                <h3>Graphic Design</h3>
-                                <p>Vector art, interfaces, animations, digital image processing (computer vision), graphic simulations & 3D modeling.</p>
+                                <h3>Diseño Gráfico</h3>
+                                <p>Arte vectorial, interfaces, animaciones, simulaciones gráficas, procesamiento digital (Visión por computadora) y modelado en 3D.</p>
                             </div>
                         </div>
                     </div>
@@ -163,8 +159,8 @@
                         <div class="row strength">
                             <div class="col-lg-4 col-md-4 col-sm-4"><img src="img/strength/elec.svg" alt="Sistemas eléctricos" /></div>
                             <div class="col-lg-8 col-md-8 col-sm-8">
-                                <h3>Electrical systems</h3>
-                                <p>  Residential to industrial, from their operation, to their design and maintenance under the code NOM-001 (Mexico) and NEC (USA))</p>
+                                <h3>Sistemas eléctricos</h3>
+                                <p> Residenciales a industriales, diseño de protecciones y mantenimiento bajo las normas NOM-001-SEDE-2012 (México).</p>
                             </div>
                         </div>
                     </div>
@@ -174,8 +170,8 @@
                         <div class="row strength">
                             <div class="col-lg-4 col-md-4 col-sm-4"><img src="img/strength/pi.svg" alt="Propiedad intelectual" /></div>
                             <div class="col-lg-8 col-md-8 col-sm-8">
-                                <h3>Intelectual property</h3>
-                                <p>Patents, Utiliy models, industrial designs, software licenses, state of the art searches.</p>
+                                <h3>Propiedad intelectual</h3>
+                                <p>Patentes, Modelos de utilidad, Diseños industriales, licencias de software y búsquedas del estado de la técnica.</p>
                             </div>
                         </div>
                     </div>
@@ -183,8 +179,8 @@
                         <div class="row strength">
                             <div class="col-lg-4 col-md-4 col-sm-4"><img src="img/strength/aws.svg" alt="Amazon WebServices" /></div>
                             <div class="col-lg-8 col-md-8 col-sm-8">
-                                <h3>Cloud Computing (AWS)</h3>
-                                <p>Amazon WebSevices, Cloud9, E2C, Route53, S3, Analytics, IoT, DigitalOcean, DR </p>
+                                <h3>Computación en la nube (AWS)</h3>
+                                <p>Amazon WebSevices, Cloud9, E2C, Route53, S3, Analytics, IoT   </p>
                             </div>
                         </div>
                     </div>
@@ -194,7 +190,7 @@
             <section class="full-width" id="skills">
                 <a class="navi-link center scroll" href="#skills" id="4"><i class="icon-tools"></i></a>
                 <div class="color-heading">
-                    <h2>¿How good am I?</h2>
+                    <h2>¿QUE TAN BUENO?</h2>
                 </div>
                 <div class="skillset">
                     <div class="skill">
@@ -207,37 +203,37 @@
                     <div class="skill red">
                         <div class="row">
                             <span class="indicator red" data-percentage="75"></span>
-                            <div class="col-lg-6 title">Embedded Design</div>
+                            <div class="col-lg-6 title">Diseño Embebido</div>
                         </div>
                     </div>
                     <div class="skill blue">
                         <div class="row">
                             <span class="indicator blue" data-percentage="60"></span>
-                            <div class="col-lg-6 title">Coding</div>
+                            <div class="col-lg-6 title">Desarollo de software</div>
                         </div>
                     </div>
                     <div class="skill orange">
                         <div class="row">
                             <span class="indicator orange" data-percentage="80"></span>
-                            <div class="col-lg-6 title">Electrical Systems</div>
+                            <div class="col-lg-6 title">Sistemas eléctricos</div>
                         </div>
                     </div>
                     <div class="skill green">
                         <div class="row">
                             <span class="indicator green" data-percentage="75"></span>
-                            <div class="col-lg-6 title">Graphic Design</div>
+                            <div class="col-lg-6 title">Diseño Gráfico</div>
                         </div>
                     </div>
                     <div class="skill violet">
                         <div class="row">
                             <span class="indicator violet" data-percentage="66"></span>
-                            <div class="col-lg-6 title">Intellectual Property</div>
+                            <div class="col-lg-6 title">Propiedad Intelectual</div>
                         </div>
                     </div>
                     <div class="skill black">
                         <div class="row">
-                            <span class="indicator black" data-percentage="65"></span>
-                            <div class="col-lg-6 title">Cloud Computing</div>
+                            <span class="indicator black" data-percentage="45"></span>
+                            <div class="col-lg-6 title">Normas y Certificaciones</div>
                         </div>
                     </div>
                 </div>
@@ -245,77 +241,61 @@
             <!--Actividades-->
             <section class="experience-block" id="experience">
                 <a class="navi-link scroll-top-40" href="#experience" id="5"><i class="icon-television"></i></a>
-                <div class="row"><div class="col-lg-12"><h2>Currently I work  </h2></div></div>
+                <div class="row"><div class="col-lg-12"><h2>Actualmente</h2></div></div>
                 <div class="group">
                     <div class="col-1">
                         <!--Actividades-->
-                    <div class="date group">Right now as<br /><br /></div>
+                    <div class="date group">Trabajo en<br /><br /></div>
+
                     </div>
 
-                    <div class="col-2 col-md-3 group">
+                    <div class="col-2 group">
                         <div class="devider"><span class="square"></span><span class="line"></span></div>
-                        <div class="row">
-                            <div class="col-lg-2 col-md-3">
-                                <a href="http://www.palco4.com/" target=_blank><img class="img img-center" src="img/logos/palco4.png" alt="Non Invasive Load Monitoring" /></a>
-                            </div>
-                            <div class="col-lg-10 col-md-9">
-                                <h3>Linux Systems Administrator (SysAdmin)</h3>
-                                <h4>Palco4, Spain</h4>
-                                <p> My job is to participate in the evolution of the infrastructure of the Palco4 eCommerce ticket system at a global level, maintaining the current architecture, participating in the re-design for its migration to the cloud, as well as testing the scalability and performance of new solutions.</p>
-                            </div>
-                        </div>
+
+
+
+					   <h3>Equifax</h3>
+                        <h4>Consultor de Servicios Profesionales PSO</h4>
+                        <p>Mi trabajo es levantar requerimientos de los clientes para personalizar la plataforma de cobranza CyberFinancial, remuevo las barreras técnicas que puedan presentarse en la implementación entre la empresa y los requerimientos de los clientes, de manera remota o de ser necesario viajando a las instalaciones del cliente</p>
+                    </div>
 
                 </div>
                 <div class="group">
                     <div class="col-1">
-                        <div class="date group">before that<br /><br /></div>
+                        <div class="date group">Apoyo a<br /><br /></div>
                     </div>
                     <div class="col-2 group">
                         <div class="devider"><span class="square"></span><span class="line"></span></div>
-
-                        <div class="row">
-                            <div class="col-lg-2 col-md-3">
-                                  <a href="https://www.equifax.com/personal/" target=_blank><img class="img img-center" src="img/logos/equifax.png" alt="Equifax"/></a>
-                            </div>
-                            <div class="col-lg-10 col-md-9">
-                                <h3>Technical Account Manager</h3>
-                                <h4>Equifax México</h4>
-                                <p> My job was to raise the technical requirements of banks and collection agencies, from removing the technical barriers that may arise between the company and the client, to transform the requirements into technical specifications for the development team, remotely or on site if necessary. In addition to personal customer service, as a project leader I was responsible for managing projects of the assigned accounts dealing with high-level presentations to the detailed technical design and implementation, along the generation of highly specialized technical documentation.
-                                </p>
-                            </div>
-                        </div>
+                        <h3>United Nations Volunteers</h3>
+                        <h4>Voluntario de las Naciones Unidas</h4>
+                        <p>Soy voluntario y dono parte de mi tiempo libre y habilidades técnicas en beneficio de la sociedad a cualquier país del mundo sin hacer consideraciones de tipo económico, para el desarrollo de organizaciones sin fines de lucro a través del servicio en el programa VNU.</p>
                     </div>
                 </div>
             </section>
             <!--Educación-->
             <section class="education full-width color-bg" id="education">
-                <a class="navi-link center scroll" href="#education" id="6"><i class="icon-book"></i></a>
+                <a class="navi-link center scroll" href="#education" id="6"><i class="icon-graduation-cap"></i></a>
                 <div class="color-heading">
-                    <h2>Education & certs</h2>
+                    <h2>Educación & Certificaciones</h2>
                 </div>
                 <div class="inner">
                     <div class="row">
-
                         <div class="col-lg-4 item">
                             <div class="row">
-                                <a href="https://www.ipn.mx/" target=_blank>  <img width="228" class="img-center" src="img/strength/IPN.svg" alt="Instituto Politécnico Nacional"></a>
-                                <center><h4>License 10347988</h4></center>
-                                <center><p>BEng. Computer Engineer</p></center>
+                                <img width="228" class="img-center" src="img/strength/IPN.svg" alt="Instituto Politécnico Nacional">
+                                <center><h4>Cédula 10347988</h4></center>
                             </div>
                         </div>
                         <div class="col-lg-4 item">
                             <div class="row">
-                                <a href="http://81cd1176253f3f59d435-ac22991740ab4ff17e21daf2ed577041.r77.cf1.rackcdn.com/Certificates/ScrumMasterCertified-ErickV%C3%A1zquezGonz%C3%A1lez-667560.pdf" target=_blank><img width="185" class="img-center" src="img/logos/scm.png" alt="Certified ScrumMaster"></a>
-                                <center><h4>Member No. 93837450</h4></center>
-                                <center><p>Certified ScrumMaster</p></center>
+                                <img width="228" class="img-center" src="img/strength/IEEE.svg" alt="Instituto de Ingenieros Eléctricos y Electrónicos">
+                                <center><h4>Miembro Núm. 93837450</h4></center>
                             </div>
                         </div>
                         <div class="col-lg-4 item">
                             <div class="row">
-                                <a href="" target=_blank><img width="190" class="img-center" src="img/logos/awsa.png" alt="Solutions Architech Associate"></a>
-                                <center><h4>Volunteer No. 1018822</h4></center>
-                                <center><p>Solutions Architech Associate</p></center>
-
+                                <img width="178" class="img-center" src="img/SCM2.png" alt="Scrum Master Certificado">
+                                <center><h4>Certificado Núm. 667560</h4></center>
                             </div>
                         </div>
                     </div>
@@ -325,28 +305,28 @@
             <section class="portfolio full-width" id="portfolio">
                 <a class="navi-link center scroll" href="#portfolio" id="7"><i class="icon-suitcase"></i></a>
                 <div class="color-heading">
-                    <h2>Portfolio</h2>
+                    <h2>Portafolio</h2>
                 </div>
                 <div class="portfolio-filter group">
                     <a href="#" data-group="code">Software</a>
-                    <a href="#" data-group="electronica">Electronics</a>
-                    <a href="#" data-group="electrica">Electrical</a>
-                    <a href="#" data-group="design">Graphic</a>
-                    <a href="#" data-group="red">Networks</a>
+                    <a href="#" data-group="electronica">Electrónica</a>
+                    <a href="#" data-group="electrica">Eléctrica</a>
+                    <a href="#" data-group="design">Gráfico</a>
+                    <a href="#" data-group="red">Redes</a>
                 </div>
                 <div class="portfolio-items">
                     <div class="portfolio-item" data-groups='["code"]'>
-                        <a href="img/portfolio/1.jpeg" class="swipebox" title="Software development in C# for automated teller machines">
+                        <a href="img/portfolio/1.jpeg" class="swipebox" title="Desarrollo de software en C# para cajeros automatizados como los utilizados por CFE, TELMEX, Metrobús">
                             <div class="overlay"><i class="zoom-icon"></i></div>
                             <div class="description">
-                                <h3>MEI</h3>
-                                <p>Automation of collection (Cash teller)</p>
+                                <h3>Dispositivos MEI</h3>
+                                <p>Automatización de cobro</p>
                             </div>
                             <img src="img/portfolio/th_1.jpg" alt="image">
                         </a>
                     </div>
                     <div class="portfolio-item" data-groups='["electronica"]'>
-                        <a href="img/portfolio/2.jpeg" class="swipebox" title="Integration of Stubby the hexapod with XBee technology controlled wirelessly, through a hacked PSX control">
+                        <a href="img/portfolio/2.jpeg" class="swipebox" title="Desarrollo de robots con tecnología XBee controlados de manera inalámbrica, por medio de un control de PSX hackeado">
                             <div class="overlay"><i class="zoom-icon"></i></div>
                             <div class="description">
                                 <h3>Xbee + Servos</h3>
@@ -356,100 +336,100 @@
                         </a>
                     </div>
                     <div class="portfolio-item" data-groups='["electrica"]'>
-                        <a href="img/portfolio/3.png" class="swipebox" title="Conducting studies of power quality analysis in medium voltage installations with the Fluke 434 analyzer">
+                        <a href="img/portfolio/3.png" class="swipebox" title="Realización de estudios de análisis de calidad de energía en instalaciones de mediana tensión con el analizador Fluke 434">
                             <div class="overlay"><i class="zoom-icon"></i></div>
                             <div class="description">
-                                <h3>Fluke 434 Analizer</h3>
-                                <p>Energy diagnostics</p>
+                                <h3>Analizador Fluke 434</h3>
+                                <p>Diagnósticos energéticos </p>
                             </div>
                             <img src="img/portfolio/th_3.jpg" alt="image" />
                         </a>
                     </div>
                     <div class="portfolio-item" data-groups='["electronica"]'>
-                        <a href="img/portfolio/4.jpeg" class="swipebox" title="Prototype design for a costumized iPad charger for museum exhibitions">
+                        <a href="img/portfolio/4.jpeg" class="swipebox" title="Diseño de prototipo para el cargado de iPads de manera masiva para exposiciones de museo">
                             <div class="overlay"><i class="zoom-icon"></i></div>
                             <div class="description">
-                                <h3>Charger 4x iPads Air</h3>
-                                <p>Electronic Design</p>
+                                <h3>Cargador 4x iPads Air</h3>
+                                <p>Diseño electrónico</p>
                             </div>
                             <img src="img/portfolio/th_4.jpg" alt="image" />
                         </a>
                     </div>
                     <div class="portfolio-item" data-groups='["electronica"]'>
-                        <a href="img/portfolio/5.jpg" class="swipebox" title=" 10 amperes Linear power supply of high precision, with positive and negative outputs, with digital displays and digital thermometer">
+                        <a href="img/portfolio/5.jpg" class="swipebox" title="Fuente lineal de 10 amperes de precisión, con salidas positivas y negativas, con displays digitales y termómetro digital">
                             <div class="overlay"><i class="zoom-icon"></i></div>
                             <div class="description">
-                                <h3>10 amperes Linear power supply</h3>
-                                <p>Product development</p>
+                                <h3>Fuente digital 15 Amperes</h3>
+                                <p>Implementación de productos</p>
                             </div>
                             <img src="img/portfolio/th_5.jpg" alt="image" />
                         </a>
                     </div>
                     <div class="portfolio-item" data-groups='["electronica","code"]'>
-                        <a href="img/portfolio/6.jpeg" class="swipebox" title="Ahorratec Energy monitoring system">
+                        <a href="img/portfolio/6.jpeg" class="swipebox" title="Monitor de consumo de energía conectado a un Sistema de Información Computadora">
                             <div class="overlay"><i class="zoom-icon"></i></div>
                             <div class="description">
-                                <h3>Energy monitoring</h3>
-                                <p>Integration of software/hardware</p>
+                                <h3>Monitoreo de energía</h3>
+                                <p>Integración software/hardware</p>
                             </div>
                             <img src="img/portfolio/th_6.jpg" alt="image" />
                         </a>
                     </div>
                     <div class="portfolio-item" data-groups='["electronica"]'>
-                        <a href="img/portfolio/7.jpeg" class="swipebox" title="Design of schematics, PCBs and prototyping in 3D using Altium Designer">
+                        <a href="img/portfolio/7.jpeg" class="swipebox" title="Diseño de esquemáticos, PCBs y generación de prototipos en 3D utilizando Altium Designer">
                             <div class="overlay"><i class="zoom-icon"></i></div>
                             <div class="description">
-                                <h3>PCB design</h3>
-                                <p>Prototype and simulations</p>
+                                <h3>Diseño de PCBs</h3>
+                                <p>Prototipos y simulaciones</p>
                             </div>
                             <img src="img/portfolio/th_7.jpg" alt="image" />
                         </a>
                     </div>
                     <div class="portfolio-item" data-groups='["electronica"]'>
-                        <a href="img/portfolio/8.png" class="swipebox" title="Digital voice processing card for converting analog voice to bits of information that are expelled by a DAC and amplified by operational amplifiers">
+                        <a href="img/portfolio/8.png" class="swipebox" title="Tarjeta de procesamiento de voz digital, para la conversión de voz analógica a bits de información que son expulsados por un DAC y amplificados por amplificadores operacionales">
                             <div class="overlay"><i class="zoom-icon"></i></div>
                             <div class="description">
-                                <h3>PCB manufacture</h3>
-                                <p>Circuit fabrication</p>
+                                <h3>Manufactura de PCB</h3>
+                                <p>Producción de circuitos</p>
                             </div>
                             <img src="img/portfolio/th_8.jpg" alt="image" />
                         </a>
                     </div>
                     <div class="portfolio-item" data-groups='["red"]'>
-                        <a href="img/portfolio/9.jpeg" class="swipebox" title="Rehabilitation of structured cabling facilities, as well as upgrading of CAT5 to CAT6 installations according to the COMPTIA 568B standard">
+                        <a href="img/portfolio/9.jpeg" class="swipebox" title="Rehabilitación de instalaciones de cableado estructurado, así como actualización de instalaciones CAT5 a CAT6 conforme a la norma COMPTIA 568B">
                             <div class="overlay"><i class="zoom-icon"></i></div>
                             <div class="description">
-                                <h3>Telecomunication rooms</h3>
-                                <p>Projects and Implementation</p>
+                                <h3>Cuartos de telecomunicaciones</h3>
+                                <p>Ante proyectos e Implementación</p>
                             </div>
                             <img src="img/portfolio/th_9.jpg" alt="image" />
                         </a>
                     </div>
                     <div class="portfolio-item" data-groups='["electrica"]'>
-                        <a href="img/portfolio/10.jpg" class="swipebox" title="Computer Aided Design of electrical planes of three-phase industrial electrical systems in a 2-storey industrial building">
+                        <a href="img/portfolio/10.jpg" class="swipebox" title="Dibujado de planos eléctricos asistidos por computadora de sistemas eléctricos industriales trifásicos en una nave industrial de 2 pisos">
                             <div class="overlay"><i class="zoom-icon"></i></div>
                             <div class="description">
-                                <h3>C.A.D.</h3>
-                                <p>Residential/Industrial systems</p>
+                                <h3>Planos C.A.D.</h3>
+                                <p>Sistemas residenciales/industriales</p>
                             </div>
                             <img src="img/portfolio/th_10.jpg" alt="image" />
                         </a>
                     </div>
                     <div class="portfolio-item" data-groups='["design"]'>
-                        <a href="img/portfolio/11.jpg" class="swipebox" title="Portal designed for the EXTREMAS organization in Costa Rica, with a target audience of children under 8 years to promote the values of the Earth Charter">
+                        <a href="img/portfolio/11.jpg" class="swipebox" title="Desarrollo del sitio web para el sitio web Cartadelatierra.org.">
                             <div class="overlay"><i class="zoom-icon"></i></div>
                             <div class="description">
-                                <h3>Web development</h3>
+                                <h3>Desarrollo web</h3>
                                 <p>HTML/CSS/PHP/Js</p>
                             </div>
                             <img src="img/portfolio/th_11.jpg" alt="image" />
                         </a>
                     </div>
                     <div class="portfolio-item" data-groups='["electronica","electrica"]'>
-                        <a href="img/portfolio/12.jpg" class="swipebox" title="Conditioning of laboratory equipment and ground systems for instrumentation testing.">
+                        <a href="img/portfolio/12.jpg" class="swipebox" title="Acondicionamiento de equipos de laboratorio y sistemas de tierra para pruebas de instrumentación ">
                             <div class="overlay"><i class="zoom-icon"></i></div>
                             <div class="description">
-                                <h3>Lab infrastructure</h3>
+                                <h3>Infraestructura laboratorios</h3>
 
                                 <p>NOM001</p>
 
@@ -459,7 +439,7 @@
                     </div>
 
                     <div class="portfolio-item" data-groups='["electronica"]'>
-                        <a href="img/portfolio/14.jpg" class="swipebox" title="Schemmatic design using Altium Designer to generate the GERBER files.">
+                        <a href="img/portfolio/14.jpg" class="swipebox" title="Diseño esquemático utilizando Altium Designer para la generación de placas de circuito impreso.">
                             <div class="overlay"><i class="zoom-icon"></i></div>
                             <div class="description">
                                 <h3>Diseño esquemático</h3>
@@ -470,10 +450,11 @@
                     </div>
 
                     <div class="portfolio-item" data-groups='["design"]'>
-                        <a href="https://www.youtube.com/watch?v=ygQ-mjRhmQA" target="_blank" title="Vectors and vector animation using FLASH CS4">
+
+	<a class="swipebox-video" rel="youtube" href="https://www.youtube.com/watch?v=ygQ-mjRhmQA" title="Vectorización y animación Vectorial utilizando FLASH CS4">
                             <div class="overlay"><i class="zoom-icon"></i></div>
                             <div class="description">
-                                <h3> Vectorial Animation(video)</h3>
+                                <h3>Animación Vectorial (video)</h3>
                                 <p> Adobe Flash, Illustrator</p>
                             </div>
                             <img src="img/portfolio/th_17.jpg" alt="1" />
@@ -481,7 +462,7 @@
                     </div>
 
                     <div class="portfolio-item" data-groups='["design"]'>
-                        <a href="https://www.youtube.com/watch?v=AbIrXslZhCk" target="_blank" title="Vectorial Animation using CS4 (voice over by me)">
+                        <a href="https://www.youtube.com/watch?v=AbIrXslZhCk" target="_blank" title="">
                             <div class="overlay"><i class="zoom-icon"></i></div>
                             <div class="description">
                                 <h3>Motion graphics</h3>
@@ -492,21 +473,21 @@
                     </div>
 
                     <div class="portfolio-item" data-groups='["code"]'>
-                        <a href="img/portfolio/15.jpg" class="swipebox" title="Website for free online medical consultations with the medical specialist, based on Wordpress.">
+                        <a href="img/portfolio/15.jpg" class="swipebox" title="Sitio web para realizar consultas con el medico a través de internet.">
                             <div class="overlay"><i class="zoom-icon"></i></div>
                             <div class="description">
-                                <h3>Online inquiry system</h3>
-                                <p>Wordpress + AngularJS + Bootstrap</p>
+                                <h3>Consultorio en línea</h3>
+                                <p>Wordpress + PHP + Bootstrap</p>
                             </div>
                             <img src="img/portfolio/th_16.jpg" alt="image" />
                         </a>
                     </div>
 
                     <div class="portfolio-item" data-groups='["code"]'>
-                        <a href="img/portfolio/18.JPG" class="swipebox" title="Online website, for online residential energy monitoring.">
+                        <a href="img/portfolio/18.JPG" class="swipebox" title="Sitio web para el monitoreo de energía eléctrica a través de internet.">
                             <div class="overlay"><i class="zoom-icon"></i></div>
                             <div class="description">
-                                <h3>Electrical monitoring</h3>
+                                <h3>Monitoreo eléctrico</h3>
                                 <p>PHP + MySQL + flot</p>
                             </div>
                             <img src="img/portfolio/th_18.jpg" alt="image" />
@@ -514,10 +495,10 @@
                     </div>
 
                     <div class="portfolio-item" data-groups='["design"]'>
-                        <a href="img/portfolio/19.jpg" class="swipebox" title="Modelado en 3 Dimensiones de gabinetes de aluminio o Plastico para prototipos.">
+                        <a href="img/portfolio/19.jpg" class="swipebox" title="Modelado en 3 Dimensiones de gabinetes de aluminio o plástico para prototipos.">
                             <div class="overlay"><i class="zoom-icon"></i></div>
                             <div class="description">
-                                <h3>3D</h3>
+                                <h3>Modelado 3D</h3>
                                 <p>SolidWorks</p>
                             </div>
                             <img src="img/portfolio/th_19.jpg" alt="image" />
@@ -525,84 +506,87 @@
                     </div>
 
                     <div class="portfolio-item" data-groups='["design"]'>
-                        <a href="img/portfolio/20.jpg" class="swipebox" title="3D model of a residential home with 3 levels.">
+                        <a href="img/portfolio/20.jpg" class="swipebox" title="Diseño tridimensional de un hogar de 3 pisos.">
                             <div class="overlay"><i class="zoom-icon"></i></div>
                             <div class="description">
-                                <h3>3D Modeling</h3>
+                                <h3>Modelado arquitectónico 3D</h3>
                                 <p>Sketchup</p>
                             </div>
                             <img src="img/portfolio/th_20.jpg" alt="image" />
                         </a>
                     </div>
+
                     <div class="portfolio-item" data-groups='["design"]'>
                         <a href="img/portfolio/21.jpg" class="swipebox" title="Instalación de centro de carga trifasico">
                             <div class="overlay"><i class="zoom-icon"></i></div>
                             <div class="description">
-                                <h3>Electrical Systems</h3>
-                                <p>Design and installation</p>
+                                <h3>Sistemas trifásicos</h3>
+                                <p>Diseño e instalación</p>
                             </div>
                             <img src="img/portfolio/th_21.jpg" alt="image" />
                         </a>
                     </div>
 
                 </div>
-            </section>
 
+
+            </section>
             <!--Actualmente-->
             <section class="awards color-bg full-width" id="awards">
                 <a class="navi-link center scroll" href="#awards" id="8"><i class="icon-archive"></i></a>
                 <div class="color-heading">
-                    <h2>CURRENTLY</h2>
+                    <h2>ÚLTIMOS PROYECTOS</h2>
                 </div>
                 <div class="inner">
                     <div class="row">
                         <div class="col-lg-6">
                             <div style="background:url(img/awards/18.JPG) no-repeat;" class="award-1">
-                                <a class="text" href="https://www.gatech.edu/academics/degrees/masters/cybersecurity-ms" target="_blank">
-                                    <h3 class="light-text">Masters in CyberSecurity</h3>
-                                <!--  <p class="light-text middle"></p> -->
+                                <a class="text" href="https://www.ahorratec.org" target="_blank">
+                                    <h3 class="light-text">AHORRATEC.ORG</h3>
+                                    <p class="light-text middle">Sistema de monitoreo de energía.</p>
                                 </a>
                             </div>
                             <div style="background:url(img/awards/aparato.jpg) no-repeat;" class="award-2">
-                                <a class="text" href="https://aws.amazon.com/es/certification/certified-solutions-architect-professional/" target="_blank">
-                                    <h3 class="light-text">AWS Solutions architech</h3>
-
+                                <a class="text" href="https://www.youtube.com/watch?v=miyeMtCeNrY" target="_blank">
+                                    <h3 class="light-text">FIT CONACYT 2016</h3>
+                                    <p class="light-text middle">Entrevista F.I.T. 2016 (Video).</p>
                                 </a>
                             </div>
                         </div>
                         <div class="col-lg-6 award-text">
-                            <h3>Masters in CyberSecurity </h3>
-                            <h4>Georgía Technology Institute </h4>
-                            <p> Im currently looking to setup the conditions to work while on paralel i work on a profesional
-								<a href="https://www.gatech.edu/academics/degrees/masters/cybersecurity-ms" target="_blank">
-								Masters degree on CyberSecurity</a> Im also looking forward to have a chance to present my  <a href="https://aws.amazon.com/es/certification/certified-solutions-architect-professional/" target="_blank">AWS Solutions Architech</a> Certification exam.
+                            <h3>Fondo de Innovación Tecnológica</h3>
+                            <h4>Sistema de monitoreo de energía ( IoT ) </h4>
+                            <p>
+                                Durante el último año enfoque mis recursos y esfuerzos en la aplicación de la
+								<a href="https://www.nasa.gov/directorates/heo/scan/engineering/technology/txt_accordion1.html" target="_blank">
+								metodología de maduración de tecnologías de la NASA</a>, para participar en Julio del año 2017
+								en el  <a href="https://www.youtube.com/watch?v=miyeMtCeNrY" target="_blank">Fondo de
+								Innovación Tecnológica.</a>
 
-
+                            </p><p><b>El objetivo fue generar un producto comercial, ensamblado y de fácil instalación
+							que permita monitorizar en tiempo real en consumo eléctrico en instalaciones eléctricas
+							residenciales</b> y mostrar la información disponible en cualquier tipo de dispositivo a travez de <a href="http://www.ahorratec.org/" target="_blank"> Ahorratec.org </a>.</p>
+                            <p>
+                                El desarrollo de este proyecto conllevo conocimientos de ingeniería, redes de computo, administración,
+								contabilidad, propiedad intelectual, programación de alto y bajo nivel, investigación
+								actividades que
+                                desempeñe como a la par emprendedor, líder de proyecto y representante técnico a lo largo del mismo.
+                            <p>
+                                <b>Di por terminado el proyecto al no ser publicada la convocatoria del fondo sectorial en
+								2017,</b> ya que este era plan central del modelo de negocios para financiar el desarrollo
+								tecnológico,</b> agradezco a todos los socios y personal que me brindaron su confianza en el proyecto de manera directa o indirecta. En la medida de mis habilidades continuare con el desarrollo a través de un posgrado de investigación.
+                            </p>
                             <br><br>
                         </div>
-
-                        <div class="col-lg-6 award-text">
-                            <h3>AWS Solutions Architecht</h3>
-                            <h4>Amazon Web Services </h4>
-                            <p> Im currently looking to setup the conditions to work while on paralel i work on a profesional
-                        <a href="https://www.gatech.edu/academics/degrees/masters/cybersecurity-ms" target="_blank">
-                        Masters degree on CyberSecurity</a> Im also looking forward to have a chance to present my  <a href="https://aws.amazon.com/es/certification/certified-solutions-architect-professional/" target="_blank">AWS Solutions Architech</a> Certification exam.
-
-
-                            <br><br>
-                        </div>
-
-
                     </div>
                 </div>
             </section>
 
 
-
-            <section class="recommend full-width" id="recommend">
+			<section class="recommend full-width" id="recommend">
                 <a class="navi-link center scroll" href="#recommend" id="9"><i class="icon-heartbeat"></i></a>
                 <div class="color-heading">
-                    <h2>Professional interests</h2>
+                <h2>Intereses Profesionales</h2>
                 </div>
                 <div class="inner">
                     <div class="row">
@@ -610,19 +594,20 @@
                             <img class="img-circle img-center" src="img/recommend/1.jpg" alt="Non Invasive Load Monitoring" />
                         </div>
                         <div class="col-lg-10 col-md-9">
-                            <h3>Industrial Internet of things</h3>
-                            <p> Measurement and control of electrical and electronic systems on real time (telemetry).</p>
+                            <h3>Internet de las cosas </h3>
+                            <h4>Industrial Internet of things</h4>
+                            <p> Soy un gran fan de la electricidad y la electrónica de instalaciones eléctricas y electrónicas a distancia en tiempo real (telemetría).</p>
                         </div>
                     </div>
 
                     <div class="row">
                         <div class="col-lg-2 col-md-3">
-                            <img class="img-circle img-center" src="img/recommend/2.jpg" alt="Distorsiones Armonicas" />
+                            <img class="img-circle img-center" src="img/recommend/2.jpg" alt="Distorsiones Armónicas" />
                         </div>
                         <div class="col-lg-10 col-md-9">
-                            <h3>Solid state power electronics </h3>
-
-                            <p>Integration of circuitery to nanoscopic size, to create new devices and products dealing with high power.</p>
+                            <h3>Computación en la nube</h3>
+                            <h4>Cloud Computing</h4>
+                            <p>La Integración de servicios en la nube me es de particular interés, estoy actualmente trabajando en mi certificación como AWS Solutions Architect y llevo ya un par de años utilizando los servicios de AWS.</p>
                         </div>
                     </div>
                     <div class="row">
@@ -630,12 +615,12 @@
                             <img class="img-circle img-center" src="img/recommend/3.jpg" alt="Desagregación de la energía" />
                         </div>
                         <div class="col-lg-10 col-md-9">
-                            <h3>Energy disagregation</h3>
-                            <p>The identification of electronic devices by means of statistical processes through measurement systems.</p>
-                        </div>
-                    </div>
-                </div>
+                            <h3>Desagregación de energía</h3>
+                            <h4>Energy disagregation & Machine learning</h4>
+                            <p> Identificación de dispositivos electrónicos por medio de aprendizaje de máquinas a través de sistemas de medición cuento con mi propio sistema desarrollado por mi el cual almacena data sets de información en la nube. </p>
+
             </section>
+
 			<!--
 			<section class="recommend full-width" id="recommend">
                 <a class="navi-link center scroll" href="#recommend" id="9"><i class="icon-heartbeat"></i></a>
@@ -686,7 +671,7 @@
             <section class="hobby color-bg full-width" id="hobby">
                 <a class="navi-link center scroll" href="#hobby" id="10"><i class="icon-book"></i></a>
                 <div class="color-heading">
-                    <h2>Publications</h2>
+                    <h2>Publicaciones</h2>
                 </div>
                 <div class="inner">
                     <div class="row">
@@ -700,7 +685,7 @@
                             <div>
                             </div>
                             <p>E. Vázquez González <a href="http://tesis.ipn.mx/bitstream/handle/123456789/22190/Erick%20Vazquez%20TESIS%20Lic%202016.pdf?sequence=1&isAllowed=y" target="_blank" title="El presente trabajo, describe la teoría, conceptos, técnicas, herramientas y esquemas necesarios para el diseño y construcción de un sistema de monitoreo eléctrico no invasivo en conjunto con un Sistema de Información Basado en Computadora con el propósito de proporcionar al usuario la retroalimentación en tiempo real sobre su consumo energético. El sistema está compuesto de 3 sub-sistemas, un sistema electrónico, un portal web y un sistema de información basado en computadora, estos trabajando en conjunto proporcionan el costo de energía consumida en una instalación residencial en tiempo real, sin la necesidad de tener que esperar el recibo de la compañía proveedora de energía. A lo largo del documento se cubre desde el diseño del hardware electrónico (compuesto de adquisición de señal, acondicionamiento de señal, procesamiento de señales digitales, transmisión de la información a un concentrador); hasta el diseño lógico del software (compuesto del envió, almacenamiento, procesamiento y graficación de la información, en un sistema en línea para procesar y mostrar la información); toda esta información puede ser consultada desde cualquier dispositivo (computadora tableta, o teléfono inteligente) y puede ser usada para monitorear en tiempo real el costo y uso de la energía, proporcionando así una herramienta que permite al usuario ser consiente del uso de su energía eléctrica así como del costo de la misma. El sistema provee graficos y un medidor virtual en Kilowatts Hora que se actualiza en tiempo web real, el sistema tiene la capacidad de calcular los valores de potencia aparente y factor de potencia, estos son utilizados para generar gráficas que permiten mostrar el aprovechamiento de la energía de los electrodomésticos del hogar. Se realizaron 8 pruebas para poner a prueba las distintas fases del desarrollo del sistema, entre ellos proceso estadístico de medición del error (varianza), obteniendo como resultado una precisión en medición promedio de 35.79% para potencias menores a 40 watts y de 0.91% para potencias mayores a 300 watts, por medio de sensores de corriente no invasivos. El resto de las pruebas se llevaron a cabo en contra de instrumentos de medición certificados con una margen de error menor a 2% en cargas resistivas, inductivas, instalaciones eléctricas residenciales e industriales, pasando de manera positiva con bajo margen de error 7 de las 8 pruebas (No se pudo medir de manera precisa en un sistema trifásico debido a que el algoritmo no está diseñado para tal propósito, sin embargo, se realizó la prueba para revisar el comportamiento del sistema). Quedando como trabajo futuro entre otras mejoras, la implantacion del sistema tarifario de la Comisión Federal de Electricidad en el Sistema de Información Basado en Computadora, el análisis de armónicos en dominio de la frecuencia, una medición fasorial (para instalaciones eléctricas a escala nacional) y la medición de distorsiones armónicas, por medio de la transformada rápida de Fourier (FFT).
-				">"Diseño, Construcción y Desarrollo de un Sistema de Monitoreo Eléctrico con interfaz web"</a> - Bachelor's Thesis, IPN 2016 </p>
+				">"Diseño, Construcción y Desarrollo de un Sistema de Monitoreo Eléctrico con interfaz web"</a> - Tesis de Licenciatura, IPN 2016 </p>
                             <p>E. Vázquez González <a href="https://www.instructables.com/id/10Amp-Linear-Power-Supply/" target="_blank" title="Why do it for 3 when we can design for 10?! At college we were in charge of designing a 3 Amp power supply, but I was seeking for a challenge, not a grade! Overcomplicating this kind of “simple” projects can make your life a bit harder but way more exiting, and the rewards just have no price, you will also learn way more than doing a small 3 Amp power supply, A linear power supply takes the 120vCA 60 Hz mains power, steps the voltage down through a transformer, rectifies, filters, and regulates it. It's simple and robust; the main problem is that it's inefficient. You need a big, heavy transformer to handle the current, high current diodes, huge electrolytic capacitors, and lots of thermal dissipation for your Darlington arrays. It can also become prohibitively expensive to build high power linear supplies, even with the challenges, the design is still a must do for every electronic engineering student">"Design and implementation of a 10Amp Linear Power Supply"</a> - Autodesk Instructables 2014</p>
                         </div>
                     </div>
@@ -710,15 +695,15 @@
             <section class="hobby color-bg full-width" id="prize">
                 <a class="navi-link center scroll" href="#prize" id="11"><i class="icon-award"></i></a>
                 <div class="color-heading">
-                    <h2>Acknowledgments</h2>
+                    <h2>Reconocimientos</h2>
                 </div>
                 <div class="inner">
                     <div class="row">
                         <div class="container-fluid">
-                             <p>Acknowledgment - <a href="https://github.com/vazeri/vazeri.github.io/raw/master/img/awards/cenlex.jpg" target="_blank">"Termino de Idioma de Ingles Avanzado" </a> - CENLEX, Zacatenco - 2014 </p>
-                	     <p>Acknowledgment - <a href="https://github.com/vazeri/vazeri.github.io/raw/master/img/awards/6.jpg" target="_blank">"Torneo nacional entre las mejores 16 empresas" </a> - GreenMomentum, USAID - CleanTech Challenge México 3rd Edition"</a> - 2013 </p>
+                             <p>Reconocimiento - <a href="https://github.com/vazeri/vazeri.github.io/raw/master/img/awards/cenlex.jpg" target="_blank">"Termino de Idioma de Ingles Avanzado" </a> - CENLEX, Zacatenco - 2014 </p>
+                	     <p>Reconocimiento - <a href="https://github.com/vazeri/vazeri.github.io/raw/master/img/awards/6.jpg" target="_blank">"Torneo nacional entre las mejores 16 empresas" </a> - GreenMomentum, USAID - CleanTech Challenge México 3era Edición"</a> - 2013 </p>
                              <p>Reconocimiento - <a href="https://github.com/vazeri/vazeri.github.io/raw/master/img/awards/4.jpg" target="_blank">"1er Lugar en concurso Inter politécnico de Administración y Calidad" </a> - CET Walter Cross Buchanan - 2008 </p>
-                           <p>Certificate - <a href="http://81cd1176253f3f59d435-ac22991740ab4ff17e21daf2ed577041.r77.cf1.rackcdn.com/Certificates/ScrumMasterCertified-ErickV%C3%A1zquezGonz%C3%A1lez-667560.pdf" target="_blank">"CSM ScrumMaster Certified" </a> - VMEdu ScrumStudy Equifax 2018-2021 </p>
+                           <p>Certificación - <a href="http://81cd1176253f3f59d435-ac22991740ab4ff17e21daf2ed577041.r77.cf1.rackcdn.com/Certificates/ScrumMasterCertified-ErickV%C3%A1zquezGonz%C3%A1lez-667560.pdf" target="_blank">"CSM ScrumMaster Certified" </a> - VMEdu ScrumStudy Equifax 2018-2021 </p>
 
 			<!--            <p>Certificado - <a href="https://github.com/vazeri/vazeri.github.io/raw/master/img/awards/GoogleTag.jpg" target="_blank">"Tag Manager Fundamentals"</a> - Google Analytics Academy  - 2017 </p>
                             <p>Certificado - <a href="https://github.com/vazeri/vazeri.github.io/raw/master/img/awards/GoogleAdv.jpg" target="_blank">Analytics for Beginners </a> - Google Analytics Academy - 2017 </p>
@@ -731,8 +716,8 @@
             <!--Forma de Contacto-->
             <section id="contact-form">
                 <a class="navi-link scroll-top-40" href="#contact-form" id="12"><i class="icon-help-circled"></i></a>
-                <h2>SEND ME A MESSAGE</h2>
-                <p> You can send me a message using this form, and as soon as I have an opportunity, I will read and answerit if needed.</p>
+                <h2>ESCRIBAME UN MENSAJE</h2>
+                <p> Usando este formulario, y en cuanto tenga una oportunidad, lo revisare y responderé a su correo electrónico a la brevedad de ser necesario.</p>
                 <div class="row">
                     <form action="https://formspree.io/gzerox@gmail.com" method="post" class="contact-form" role="form">
                         <input type="hidden" name="_language" value="es" />
@@ -741,18 +726,18 @@
 
                         <div class="col-lg-6 col-md-6 form-group">
                             <label for="name" class="sr-only">Nombre</label>
-                            <input type="text" class="form-control" name="Nombre" id="first_name" placeholder="Name" required>
+                            <input type="text" class="form-control" name="Nombre" id="first_name" placeholder="Nombre" required>
                         </div>
                         <div class="col-lg-6 col-md-6 form-group">
                             <label for="email" class="sr-only">Correo</label>
-                            <input type="email" class="form-control" name="Correo" id="email" placeholder="Email" required>
+                            <input type="email" class="form-control" name="Correo" id="email" placeholder="Correo" required>
                         </div>
                         <div class="col-lg-12 form-group">
                             <label for="message" class="sr-only">Mensaje</label>
-                            <textarea class="form-control" name="Mensaje" id="message" rows="4" placeholder="Message..." required></textarea>
+                            <textarea class="form-control" name="Mensaje" id="message" rows="4" placeholder="Mensaje..." required></textarea>
                         </div>
                         <div class="col-lg-12">
-                            <input class="btn btn-primary pull-right" type="submit" value="Send">
+                            <input class="btn btn-primary pull-right" type="submit" value="Enviar">
 
                         </div>
                     </form>
@@ -762,19 +747,20 @@
             <section class="files full-width" id="files">
                 <div class="row">
                     <div class="col-lg-4">
-                                <a target="_blank" class="print-btn" href="https://www.youtube.com/user/GZeromostro/featured"><i class="icon-youtube-play"></i><br /><b>VBlog</b></a>
+                        <!--        <a target="_blank" class="print-btn" href="#"><i class="icon-youtube-play"></i><br /><b>Video CV</b></a>
+                        <a class="btn-grey"><i class="icon-youtube-play"></i><br /><b>Video CV</b></a>
+                    -->
 
 
-<!--
                         <a class="btn-grey"><img src="img/icons/grabando.jpg" alt="¡Aun me encuentro grabando mi video CV!" />
-</a>-->
+</a>
 
                     </div>
                     <div class="col-lg-4">
                         <a href="https://github.com/vazeri/vazeri.github.io/raw/master/pdf/CVErick.pdf"><i class="icon-newspaper"></i><br /><b>Curriculum (PDF)</b></a>
                     </div>
                     <div class="col-lg-4">
-                        <a href="https://vazeri.documize.com/" target="_blank"><i class="icon-dropbox"></i><br /><b>Digital Cave</b></a>
+                        <a href="https://vazeri.documize.com/" target="_blank"><i class="icon-dropbox"></i><br /><b>Cueva Digital</b></a>
                     </div>
                 </div>
             </section>
@@ -782,8 +768,8 @@
 
             <section id="contact-form">
                 <a class="navi-link scroll-top-40" href="#contact-form" id="12"><i class="icon-help-circled"></i></a>
-                <h2>BETWEEN US</h2>
-                <p> I love petting my cat; I also happen to like to going out with my camera taking pictures, listening online webinars/conferences while I play some vydia</p>
+                <h2>AQUÍ ENTRE NOS</h2>
+                <p> Me encantan los gatos y los canarios, suelo disfrutar de salir con mi cámara a tomar fotografías, escuchar conferencias y seminarios mientras trabajo en mi computadora. </p>
             </section>
 
             <section class=" visible-md visible-lg files full-width" id="asteroids">
@@ -800,8 +786,8 @@
                         <div class="row">
                             <div class="col-sm-12">
                                 <div class="text-center">
-                                    <p>By the way... click the red button for... </p>
-                                        <button class="btn btn-red"  id="mylink" >ASTEROIDS!</button>
+                                    <p> Por cierto... da clic en el botón rojo para... </p>
+                                        <button class="btn btn-red"  id="mylink" >¡Asteroides!</button>
 
                                 </div>
                             </div>
@@ -823,9 +809,9 @@
             <h2>Social</h2>
         </div>
         <div class="social-links group">
+            <div class="twitter-hover"><a href="https://twitter.com/GZeroDTO" target="_blank"><i class="flaticon-twitter"></i></a></div>
             <div class="github-hover"><a href="https://github.com/vazeri" target="_blank"><i class="flaticon-github"></i></a></div>
             <div class="likedin-hover"><a href="https://mx.linkedin.com/in/vazeri" target="_blank"><i class="flaticon-linkedin"></i></a></div>
-            <div class="steam-hover"><a href="https://twitter.com/GZeroDTO" target="_blank"><i class="flaticon-steam"></i></a></div>
             <div class="flickr-hover"><a href="https://www.flickr.com/photos/gzerodto/" target="_blank"><i class="flaticon-flickr"></i></a></div>
         </div>
     </section>
