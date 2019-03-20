@@ -1,5 +1,5 @@
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -8,7 +8,7 @@ footer, header, hgroup, menu, nav, section {
 *, *:before, *:after {
   -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
  }
- 
+
 /*Clearfix*/
 .group:after {
 	visibility: hidden;
@@ -36,7 +36,7 @@ body {
 }
 
 
-/*Efecto maquina 
+/*Efecto maquina
 --------------------------------------------------------*/
 .typewriter{
   overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -44,7 +44,7 @@ body {
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .15em; /* Adjust as needed */
-  animation: 
+  animation:
     typing 3.5s steps(40, end),
     blink-caret .75s step-end infinite;
 }
@@ -124,12 +124,12 @@ p.bold {
 }
 .color-heading {
 	width: 100%;
-	padding: 20px 40px; 
+	padding: 20px 40px;
 	background-color: #2980b9;
 	margin-bottom: 30px;
 	color: #fff;
 		 border: 1px solid #999;
-	
+
 /*Sombras
 ---------------------------------------------------------*/
 
@@ -157,9 +157,9 @@ img {
     background-color: black;
 
     position:absolute;
-    left:0; 
+    left:0;
     right:0;
-    top:0; 
+    top:0;
     bottom:0;
     margin:auto;
 
@@ -176,24 +176,24 @@ img {
     vertical-align:middle; /* center vertically */
 	horizontal-align: middle;
     color: white;
-	  
+
 	font-size:  16pt ;
 	font-weight: bold;
-	
+
 }.important2 {
 	text-align:center; /* center horizontally */
     vertical-align:middle; /* center vertically */
     color: white;
 	font-size:  14pt ;
 	font-weight: bold;
-	
+
 }.important3 {
 	text-align:center; /* center horizontally */
     vertical-align:middle; /* center vertically */
     color: white;
 	font-size:  13pt ;
-	
-	
+
+
 }
 .post-thumb {
 	margin-left: 0px;
@@ -251,7 +251,7 @@ img {
 	width: 100%;
 	min-height: 100%;
 	background-color: #12121a;
-	
+
 	z: 0;
 }
 .sidebar h1 {
@@ -297,14 +297,19 @@ img {
 }
 .contact-details {
 	padding: 40px 50px;
-	background-color: rgba(44,62,80,0.8);
+/*border: 5px solid #2980B9;	*/
+	background-color: rgba(44,62,80,0.7);
+	border-radius: 25px;
+	width: auto;
+	height: 200px;
+	z-index: 1;
 }
 
 /*Importante
 ---------------------------------------------------------*/
 
 .important {
-	
+
 	position: relative;
 	width: 100%;
 	bottom: 0px;
@@ -357,7 +362,7 @@ img {
 }
 .content-left section,
 .content-right section {
-	width: 100%;	
+	width: 100%;
 	padding-left: 40px;
 	padding-right: 40px;
 	margin-top: -20px;
@@ -389,9 +394,9 @@ img {
 	text-decoration: none;
 	font-size: 1.9em;
 	color: #fff;
-	-webkit-transition: color 250ms ease; 
-	-moz-transition: color 250ms ease; 
-	transition: color 250ms ease; 
+	-webkit-transition: color 250ms ease;
+	-moz-transition: color 250ms ease;
+	transition: color 250ms ease;
 }
 x:-o-prefocus, .strip {
 	height: 100%;
@@ -402,13 +407,13 @@ x:-o-prefocus, .navi-link {
 .ie9 .navi-link, .ie8 .navi-link {
 	top: 27px;
 }
-@-moz-document url-prefix() { 
+@-moz-document url-prefix() {
 	.navi-link {
 		top: 24px;
 	}
 }
 @media screen and (-ms-high-contrast: active),
-(-ms-high-contrast: none) {  
+(-ms-high-contrast: none) {
 	.navi-link {
 		top: 27px;
 	}
@@ -438,7 +443,7 @@ x:-o-prefocus, .navi-link {
 /*Strength
 ---------------------------------------------------------*/
 .strength {
-	
+
 	margin-top: 10px;
 	margin-bottom: 20px;
 }
@@ -527,13 +532,13 @@ x:-o-prefocus, .navi-link {
 	width: 0%;
 	min-height: 70px;
 	z-index: 0;
-	position: absolute; 
+	position: absolute;
 
 	top: 0;
 	left: 0;
-	-webkit-transition: width 2500ms ease-out; 
-	-moz-transition: width 2500ms ease-out; 
-	transition: width 2500ms ease-out; 
+	-webkit-transition: width 2500ms ease-out;
+	-moz-transition: width 2500ms ease-out;
+	transition: width 2500ms ease-out;
 }
 .indicator.blue {
 	 background-color: #D9006C;
@@ -818,12 +823,12 @@ x:-o-prefocus, .navi-link {
 ---------------------------------------------------------*/
 .recommend .row {
 	margin-bottom: 10px;
-	
+
 }
 .recommend img {
 	margin-top: 10px;
     margin-bottom: 20px;
-	
+
 }
 
 /*Hobby
@@ -834,7 +839,7 @@ x:-o-prefocus, .navi-link {
 .hobby .row {
 	margin-bottom: 10px;
 }
- 
+
 /*Buttons
 ---------------------------------------------------------*/
 .btn {
@@ -869,7 +874,7 @@ x:-o-prefocus, .navi-link {
     border-radius: 0px;
     outline: 0;
     text-transform: uppercase;
- 
+
 }
 .btn3 {
     display: inline-block;
@@ -923,7 +928,7 @@ x:-o-prefocus, .navi-link {
 ---------------------------------------------------------*/
 #contact-form {
 	margin-top: 65px;
-	
+
   margin-bottom: 65px;
 }
 .contact-form {
@@ -1010,15 +1015,15 @@ label.error {
 ---------------------------------------------------------*/
 .social-links {
 	width: 100%;
-	margin-top: -30px; 
+	margin-top: -30px;
 	margin-bottom: -20px;
 }
 .social-links > div {
 	float: left;
 	width: 25%;
 	height: 50%;
-	-webkit-transition: all 300ms ease; 
-	-moz-transition: all 300ms ease; 
+	-webkit-transition: all 300ms ease;
+	-moz-transition: all 300ms ease;
 	transition: all 300ms ease;
 }
 .social-links > div > a {
@@ -1032,9 +1037,9 @@ label.error {
 	vertical-align: middle;
 	color: #fff;
 	font-size: 4.5em;
-	-webkit-transition: all 300ms ease; 
-	-moz-transition: all 300ms ease; 
-	transition: all 300ms ease; 
+	-webkit-transition: all 300ms ease;
+	-moz-transition: all 300ms ease;
+	transition: all 300ms ease;
 }
 .social-links > div:hover {
 	background-color: #fff !important;
@@ -1045,7 +1050,7 @@ label.error {
 .social-links > div:hover > a i {
 	color: #000;
 }
-.twitter-hover {font-size: .8em; 
+.twitter-hover {font-size: .8em;
 	background-color: #5ec3df;
 }
 .github-hover {
@@ -1097,7 +1102,7 @@ label.error {
 	font-size: 5.6em !important;
 }
 .flickr-hover {
-	font-size: 0.8em; 
+	font-size: 0.8em;
 	background-color: #0164db;
 }
 .gecko-hover {
@@ -1146,12 +1151,12 @@ label.error {
 	font-size: 5em !important;
 }
 .researchgate-hover {
-	
+
 	background: url(../img/icons/RG_square_green2.jpg) ;
 	font-size: 5em !important;
 }
 .researchgate-hover a i {
-	
+
 	background: url(../img/icons/RG_square_black.jpg) ;
 	font-size: 5em !important;
 }
@@ -1168,9 +1173,9 @@ label.error {
 	color: #000;
 	font-size: 1.6em;
 	text-transform: uppercase;
-	-webkit-transition: all 300ms ease; 
-	-moz-transition: all 300ms ease; 
-	transition: all 300ms ease; 
+	-webkit-transition: all 300ms ease;
+	-moz-transition: all 300ms ease;
+	transition: all 300ms ease;
 	margin: 40px 0;
 }
 .files div a:hover {
@@ -1187,7 +1192,7 @@ label.error {
 footer {
 	display: block;
 	width: 100%;
-	padding: 21px 15px 17px 26px; 
+	padding: 21px 15px 17px 26px;
 	background-color: #2c3e50;
 	position: relative;
 	z-index: 11;
@@ -1394,7 +1399,7 @@ footer span {
 		line-height: 1.5em;
 	}
 	h4 { font-size: 1.1em; }
-	
+
 	p {
 		font-size: 1em;
 		line-height: 1.4em;
@@ -1468,7 +1473,7 @@ footer span {
 		width: 100%;
 		float: none;
 	}
-	.sidebar { 
+	.sidebar {
 		position: relative;
 		min-height: 0;
 		background-color: transparent;
@@ -1509,7 +1514,7 @@ footer span {
 	.sidebar h2 { text-align: left; }
 	.strength img, .recommend img { margin-bottom: 20px; }
 	.skills .color-heading, .portfolio .color-heading {
-		padding: 20px 40px 60px 40px; 
+		padding: 20px 40px 60px 40px;
 	}
 	.skill {
 		padding: 0 20px;

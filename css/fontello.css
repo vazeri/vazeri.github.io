@@ -19,42 +19,42 @@
   }
 }
 */
- 
+
  [class^="icon-"]:before, [class*=" icon-"]:before {
   font-family: "fontello";
   font-style: normal;
   font-weight: normal;
   speak: none;
- 
+
   display: inline-block;
   text-decoration: inherit;
   width: 1em;
   margin-right: .2em;
   text-align: center;
   /* opacity: .8; */
- 
+
   /* For safety - reset parent styles, that can break glyph codes*/
   font-variant: normal;
   text-transform: none;
- 
+
   /* fix buttons height, for twitter bootstrap */
   line-height: 1em;
- 
+
   /* Animation center compensation - margins should be symmetric */
   /* remove if not needed */
   margin-left: 0em;
- 
+
   /* you can be more comfortable with increased icons size */
   /* font-size: 120%; */
- 
+
   /* Font smoothing. That was taken from TWBS */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
- 
+
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
- 
+
 .icon-arrows-cw:before { content: '\e800'; } /* '' */
 .icon-calendar:before { content: '\e801'; } /* '' */
 .icon-video-circled:before { content: '\e802'; } /* '' */
@@ -93,7 +93,7 @@
 .icon-file-video:before {  margin-left: 0.2em;  content: '\f1c8'; } /* '' */
 .icon-trash:before { content: '\f1f8'; } /* '' */
 .icon-heartbeat:before {  font-size: 100%;  content: '\f21e'; } /* '' */
-.icon-whatsapp:before { content: '\f232'; } /* '' */
+.icon-whatsapp:before { font-size: 115%; content: '\f232'; } /* '' */
 .icon-television:before { content: '\f26c'; } /* '' */
 .icon-address-book-o:before { content: '\f2ba'; } /* '' */
 .icon-address-card-o:before { content: '\f2bc'; } /* '' */
