@@ -9,7 +9,7 @@
 	font-style: normal;
 }
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
-[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {
 	font-family: Flaticon;
 font-style: normal;
 font-size: 0.9em;
