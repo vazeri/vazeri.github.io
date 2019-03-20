@@ -298,12 +298,9 @@ img {
 .contact-details {
 	padding: 40px 50px;
 /*border: 5px solid #2980B9;	*/
-	background-color: rgba(44,62,80,0.7);
+	background-color: rgba(44,62,80,0.75);
 	border-radius: 25px;
-	width: auto;
-	height: 200px;
-	z-index: 1;
-}
+ }
 
 /*Importante
 ---------------------------------------------------------*/
