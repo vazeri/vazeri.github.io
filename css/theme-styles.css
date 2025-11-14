@@ -1504,8 +1504,26 @@ footer span {
 		-webkit-animation-name: none;
 		animation-name: none;
 	}
-	.skillset { margin-top: -70px; }
-}
+		.skillset { margin-top: -70px; }
+
+		/* Ensure resources/icons in #files are centered and stacked on small screens */
+		#files .col-lg-4 {
+			margin-top: 0; /* remove negative pull that can misalign when stacked */
+			text-align: center;
+			float: none;
+			width: 100%;
+		}
+		#files div a {
+			display: block;
+			margin: 20px auto;
+			text-align: center;
+		}
+		#files div a i,
+		#files div a img {
+			display: block;
+			margin: 0 auto 10px auto;
+		}
+	}
 @media screen and (max-width: 768px) {
 	h2, .strength, .recommend h3, .skillset .column { text-align: center; }
 	.sidebar h2 { text-align: left; }
@@ -1594,7 +1612,27 @@ footer span {
 	.sidebar h3 { font-size: 1em; }
 }
 
+/* Broad fallback: ensure #files icons are centered for all view widths <= 1199px
+   (covers intermediate zoom levels that might not hit other specific media queries) */
+@media screen and (max-width: 1199px) {
+	#files .col-lg-4 {
+		margin-top: 0;
+		text-align: center;
+		float: none;
+		width: 100%;
+	}
+	#files div a {
+		display: block;
+		margin: 20px auto;
+		text-align: center;
+	}
+	#files div a i,
+	#files div a img {
+		display: block;
+		margin: 0 auto 10px auto;
+	}
+}
+
 iframe[name="google_conversion_frame"] {
     display: none !important;
 }
-z
